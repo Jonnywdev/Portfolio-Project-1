@@ -10,3 +10,70 @@ body {
     color: #000;
     background-color: #D8CB97;
 }
+
+/* generic styles */
+
+h1, h2 {
+    font-family: 'caviar-dreams', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #000;
+}
+
+/* header */
+
+#head-bg {
+    background-color: #1F1E20;
+    width: 100%;
+}
+
+#head-bg img {
+    height: 10%;
+    width: 10%;
+    padding: 20px 0 0 30px;
+    float: left;
+}
+
+/* navigation list */
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#menu {
+    line-height: 150px;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#menu a  {
+    text-decoration: none;
+    color: #D8CB97;
+}
+
+#menu a.left{
+    position: relative;
+}
+
+#menu a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #D8CB97;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+}
