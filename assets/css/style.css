@@ -143,6 +143,7 @@ a.left:hover:before {
     color: #D8CB97;
     letter-spacing: 0;
     padding-right: 5px;
+    text-transform: none;
 }
 
 #cover-text h2 {
