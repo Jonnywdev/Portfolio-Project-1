@@ -15,9 +15,11 @@ body {
 
 h1, h2 {
     font-family: 'caviar-dreams', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    color: #000;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* header */
@@ -57,14 +59,15 @@ h1, h2 {
     color: #D8CB97;
 }
 
-#menu a.left{
+a.left{
     position: relative;
 }
 
-#menu a.left:before {
+a.left:before {
   content: "";
   position: absolute;
   width: 0;
+  margin-top: 20px;
   height: 2px;
   bottom: 0;
   left: 0;
@@ -73,7 +76,83 @@ h1, h2 {
   transition: all 0.3s ease-in-out;
 }
 
-#menu a.left:hover:before {
+a.left:hover:before {
     visibility: visible;
     width: 100%;
 }
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.png') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* hero image cover text */
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text {
+    font-size: 100%;
+    text-transform: none;
+    
+    
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(31, 30, 32, 0.64);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#cover-text h2, a {
+    font-family: 'caviar-dreams', sans-serif;
+    font-weight: 600;
+    color: #D8CB97;
+    letter-spacing: 0;
+    padding-right: 5px;
+}
+
+#cover-text h2 {
+    margin-bottom: 25%;
+}
+
+#cover-text a {
+    font-size: 125%;
+    text-transform: uppercase;
+}
+
+/* news */
+
