@@ -156,3 +156,44 @@ a.left:hover:before {
 
 /* news */
 
+#recent-news {
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#news  {
+    text-align: left;
+    margin: 30px 0;
+    font-size: 280%;
+    text-transform: uppercase;
+}
+
+.card-left {
+    width: 30%;
+    height: 40%;
+    float: left;
+    background-color: #fff;
+    box-shadow: 5px 10px #BFB58C;
+    border-radius: 25px;
+    position: relative;
+}
+
+.card-right {
+    width: 30%;
+    height: 40%;
+    float: right;
+    background-color: #fff;
+    box-shadow: 5px 10px #BFB58C;
+    border-radius: 25px;
+}
+
+.card-middle {
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 5px 10px #BFB58C;
+    border-radius: 25px;
+}
