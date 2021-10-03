@@ -224,9 +224,37 @@ a.left:hover:before {
 
 /* contact us */
 #contact-us {
-    height: 400px;
+    height: 325px;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
     background-color: #1F1E20;
+    text-align: center;
+}
+
+#contact-us h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 200%;
+    color: #D8CB97;
+    text-transform: uppercase;
+}
+
+#contact-us h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 150%;
+    color: #D8CB97;
+    text-transform: capitalize;
+}
+
+#contact-us button{
+        background-color: transparent;
+        color: #D8CB97;
+        margin-top: 50px;
+        border: 3px solid #D8CB97; 
+        transition: all .5s;
+        font-size: 120%;
+        padding: 10px;
+        cursor: pointer;
 }
