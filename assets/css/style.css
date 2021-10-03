@@ -300,3 +300,7 @@ a.left:hover:before {
     margin-top: 5%;
 }
 
+.icon {
+    color: #D8CB97;
+    font-size: 80%;
+}
