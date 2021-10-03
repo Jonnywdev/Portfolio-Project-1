@@ -264,6 +264,8 @@ a.left:hover:before {
     width: 100%;
     background-color: #1F1E20;
     height: 325px;
+    position: relative;
+    bottom: 0;
 }
 
 #footer-bg img {
