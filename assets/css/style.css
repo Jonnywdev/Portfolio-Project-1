@@ -42,9 +42,6 @@ a {
     letter-spacing: 2px;
     text-align: right;
     margin-right: 40px;
-}
-
-#menu {
     line-height: 150px;
 }
 
@@ -267,5 +264,39 @@ a.left:hover:before {
     width: 100%;
     background-color: #1F1E20;
     height: 325px;
-
 }
+
+#footer-bg img {
+    height: 50%;
+    width: 15%;
+    padding: 20px 0 0 30px;
+    float: left;
+}
+
+#footer-menu {
+    float: right;
+    font-size: 150%;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#footer-menu li {
+    
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#footer-menu a {
+    text-decoration: none;
+    color: #D8CB97;
+}
+
+#footer-menu h3 {
+    text-decoration: none;
+    color: #D8CB97;
+    font-size: 50%;
+    font-family: 'caviar-dreams', sans-serif;
+    margin-top: 5%;
+}
+
