@@ -264,13 +264,12 @@ a.left:hover:before {
     width: 100%;
     background-color: #1F1E20;
     height: 325px;
-    position: relative;
-    bottom: 0;
+    position: absolute;
 }
 
 #footer-bg img {
-    height: 50%;
-    width: 15%;
+    height: 70%;
+    width: 20%;
     padding: 20px 0 0 30px;
     float: left;
 }
@@ -310,8 +309,49 @@ a.left:hover:before {
 }
 
 /* contact us page */
+#contact {
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
 
+.form-wrapper {
+    background-color: #1F1E20;
+    width: 33%;
+    float: left;
+    height: 400px;
+    margin: 15% 0;
+}
 
+.form-wrapper label {
+    color: #D8CB97;
+}
+
+form {
+    padding: 5%;
+}
+
+.form-wrapper h1 {
+    color: #D8CB97;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+}
+
+.form-wrapper input {
+    width: 90%;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #D8CB97;
+    color: #D8CB97;
+    background-color: transparent;
+}
+
+input[type=submit] {
+
+}
 
 /* responsiveness */
 
