@@ -213,3 +213,20 @@ a.left:hover:before {
 .news-container {
     padding: 10px 20px;
   }
+
+.card-a {
+    color: #000;
+}
+
+.card-a p {
+    font-weight: 300;
+}
+
+/* contact us */
+#contact-us {
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: #1F1E20;
+}
