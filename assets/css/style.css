@@ -303,4 +303,13 @@ a.left:hover:before {
 .icon {
     color: #D8CB97;
     font-size: 80%;
+    cursor: pointer;
+    padding: 2px;
 }
+
+/* contact us page */
+
+
+
+/* responsiveness */
+
