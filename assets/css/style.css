@@ -32,7 +32,7 @@ a {
 #head-bg img {
     height: 10%;
     width: 10%;
-    padding: 20px 0 0 30px;
+    padding: 40px 0 0 30px;
     float: left;
 }
 
@@ -422,13 +422,24 @@ textarea {
     margin-right: 5%;
     margin-top: 15%;
     width: 90%;
+    color: #1F1E20;
+}
+
+hr {
+    border-top: 3px solid #1F1E20;
+    width: 100%;
+    margin: 5px 0;
 }
 
 .info-left {
     float: left;
-    background-color: green;
     width: 65%;
     height: 400px;
+}
+
+.info-left p {
+    text-align: justify;
+    padding-top: 5%;
 }
 
 .info-right {
