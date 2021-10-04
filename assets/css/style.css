@@ -271,8 +271,9 @@ a.contact-us-btn:hover:before {
 }
 
 
-.contact-us-btn h1 {
-    font-size: 100%;
+.contact-us-btn {
+    font-size: 200%;
+    text-transform: uppercase;
 }
 
 /* footer */ 
