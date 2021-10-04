@@ -15,7 +15,7 @@ body {
 
 h1, h2 {
     font-family: 'caviar-dreams', sans-serif;
-    color: #000000;
+    color: #1F1E20;
 }
 
 a {
@@ -543,6 +543,7 @@ hr {
     margin-right: 5%;
     margin-top: 15%;
     width: 90%;
+    overflow: hidden;
 }
 
 #our-bbq-menu {
@@ -550,20 +551,55 @@ hr {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
+    margin-top: 15%;
 }
 
 .menu-left{
     float: left;
-    background-color: pink;
     width: 50%;
     height: 500px;
 }
 
 .menu-right {
     float: right;
-    background-color: aqua;
     width: 45%;
     height: 500px;
+}
+
+#our-pizza-menu h1{
+    text-transform: uppercase;
+    color: #1F1E20;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+
+#our-pizza-menu h3{
+    text-transform: capitalize;
+    color: #1F1E20;
+    font-size: 125%;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+.menu-table {
+    font-size: 150%;
+    margin: 5% 0;
+}
+
+.left {
+    padding-left: 7.5%;
+}
+
+.pizza-menu-photos {
+    clear: both;
+    line-height: 2;
+    column-count: 2;
+    column-gap: 2;
+}
+
+.pizza-menu-photos > img {
+    width: 100%;
 }
 /* responsiveness */
 
