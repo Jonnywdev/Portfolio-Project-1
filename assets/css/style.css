@@ -537,6 +537,34 @@ hr {
 
 /* our menu page */
 
+#our-pizza-menu {
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    width: 90%;
+}
 
+#our-bbq-menu {
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    width: 90%;
+}
+
+.menu-left{
+    float: left;
+    background-color: pink;
+    width: 50%;
+    height: 500px;
+}
+
+.menu-right {
+    float: right;
+    background-color: aqua;
+    width: 45%;
+    height: 500px;
+}
 /* responsiveness */
 
