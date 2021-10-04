@@ -310,7 +310,7 @@ a.left:hover:before {
 
 /* contact us page */
 #contact {
-    height: 600px;
+    height: 800px;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -318,9 +318,9 @@ a.left:hover:before {
 
 .form-wrapper {
     background-color: #1F1E20;
-    width: 33%;
+    width: 36%;
     float: left;
-    height: 400px;
+    height: 450px;
     margin: 15% 0;
 }
 
@@ -339,7 +339,7 @@ form {
 }
 
 .form-wrapper input {
-    width: 90%;
+    width: 100%;
 }
 
 input {
@@ -350,7 +350,29 @@ input {
 }
 
 input[type=submit] {
+    text-transform: uppercase;
+    padding: 2%;
+    cursor: pointer;
+}
 
+textarea {
+    resize: none;
+    width: 96%;
+    background-color: #D8CB97;
+    font-family: 'caviar-dreams', sans-serif;
+    padding: 2%;
+    margin-top: 2%;
+
+}
+
+/* information section */
+
+.information-wrapper {
+    background-color: red;
+    width: 33%;
+    float: right;
+    height: 400px;
+    margin: 15% 0;
 }
 
 /* responsiveness */
