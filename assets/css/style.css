@@ -416,5 +416,12 @@ textarea {
 
 /* about us page */
 
+#welcome {
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
 /* responsiveness */
 
