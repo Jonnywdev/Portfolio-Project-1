@@ -362,18 +362,38 @@ textarea {
     font-family: 'caviar-dreams', sans-serif;
     padding: 2%;
     margin-top: 2%;
+}
 
+.form-wrapper p{
+    font-size: 75%;
+    color: #D8CB97;
+    padding-bottom: 2%;
 }
 
 /* information section */
 
 .information-wrapper {
-    background-color: red;
-    width: 33%;
+    width: 35%;
     float: right;
-    height: 400px;
+    height: 450px;
     margin: 15% 0;
+    text-align: right;
 }
+
+.information-wrapper h1 h3 {
+    color: #1F1E20;
+}
+
+.information-wrapper h1 {
+    font-size: 200%;
+    padding: 5% 0;
+}
+
+.information-wrapper h3 {
+    font-size: 150%;
+    font-weight: 300;
+}
+
 
 /* responsiveness */
 
