@@ -548,10 +548,10 @@ hr {
 
 #our-bbq-menu {
     height: 600px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 15% 5%;
     width: 90%;
-    margin-top: 15%;
+    
+    overflow: hidden;
 }
 
 .menu-left{
@@ -582,23 +582,38 @@ hr {
     margin-bottom: 5%;
 }
 
+#our-bbq-menu h1{
+    text-transform: uppercase;
+    color: #1F1E20;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+#our-bbq-menu h3 {
+    text-transform: capitalize;
+    color: #1F1E20;
+    font-size: 125%;
+    font-weight: 400;
+    margin-bottom: 5%; 
+}
+
 .menu-table {
     font-size: 150%;
     margin: 5% 0;
 }
 
-.left {
+.padding-left {
     padding-left: 7.5%;
 }
 
-.pizza-menu-photos {
+.menu-photos {
     clear: both;
     line-height: 2;
     column-count: 2;
     column-gap: 2;
 }
 
-.pizza-menu-photos > img {
+.menu-photos > img {
     width: 100%;
 }
 /* responsiveness */
