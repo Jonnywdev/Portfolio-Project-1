@@ -421,6 +421,11 @@ textarea {
     width: 90%;
 }
 
+#gallery-section h2{
+    text-transform: uppercase;
+    font-size: 200%;
+}
+
 .photos {
     clear: both;
     line-height: 40px;
