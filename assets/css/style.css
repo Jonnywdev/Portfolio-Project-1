@@ -247,15 +247,32 @@ a.left:hover:before {
     letter-spacing: .5px;
 }
 
-#contact-us button{
-        background-color: transparent;
-        color: #D8CB97;
-        margin-top: 50px;
-        border: 3px solid #D8CB97; 
-        transition: all .5s;
-        font-size: 120%;
-        padding: 10px;
-        cursor: pointer;
+
+a.contact-us-btn{
+    position: relative;
+}
+
+a.contact-us-btn:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  margin-top: 20px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #D8CB97;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.contact-us-btn:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+
+.contact-us-btn h1 {
+    font-size: 100%;
 }
 
 /* footer */ 
@@ -405,9 +422,8 @@ textarea {
 
 .photos {
     clear: both;
-    line-height: 2;
+    line-height: 40px;
     column-count: 6;
-    column-gap: 2;
 }
 
 .photos > img {
@@ -608,9 +624,8 @@ hr {
 
 .menu-photos {
     clear: both;
-    line-height: 2;
+    line-height: 40px;
     column-count: 2;
-    column-gap: 2;
 }
 
 .menu-photos > img {
