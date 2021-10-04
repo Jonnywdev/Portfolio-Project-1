@@ -420,7 +420,27 @@ textarea {
     height: 600px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 15%;
     width: 90%;
+}
+
+.info-left {
+    float: left;
+    background-color: green;
+    width: 65%;
+    height: 400px;
+}
+
+.info-right {
+    float: right;
+    width: 35%;
+    height: 400px;
+    text-align: right;
+}
+
+.info-right > img {
+    width: 80%;
+    height: inherit;
 }
 
 /* responsiveness */
