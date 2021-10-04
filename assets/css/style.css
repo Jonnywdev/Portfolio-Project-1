@@ -394,6 +394,25 @@ textarea {
     font-weight: 300;
 }
 
+/* gallery section */
+
+#gallery-section {
+    height: 950px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.photos {
+    clear: both;
+    line-height: 2;
+    column-count: 6;
+    column-gap: 2;
+}
+
+.photos > img {
+    width: 100%;
+}
 
 /* responsiveness */
 
