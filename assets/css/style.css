@@ -759,10 +759,40 @@ hr {
         font-size: 65%;
     }
 
+    /* about us */
+    .review-card-left, .review-card-middle, .review-card-right {
+        height: 350px;
+    }
 
+    /* contact us */
+    
+    .form-wrapper {
+        width: 100%;
+        float: left;
+        height: 550px;
+        margin-bottom: 5%;
+    }
 
+    .information-wrapper {
+        margin: 5% 0;
+        text-align: left;
+        float: left;
+        height: 300px;
+    }
 
+    #contact {
+        height: 1000px;
+    }
+    
+    #gallery-section {
+        display: flex;
+        flex-direction: column;
+        height: 2500px;
+    }
 
+    .photos {
+        column-count: 3;
+    }
 }
 
 /* for small screen sizes from 800px wide and down */
