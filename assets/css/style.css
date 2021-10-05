@@ -653,8 +653,25 @@ hr {
 }
 /* responsiveness */
 /* for large screens sizes from 1200px and down */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
+    /* footer */
+    #footer-bg img {
+        height: 60%;
+    }
 
+    /* homepage */
+    #cover-text {
+        right: 70px;
+    }
+
+    /* our menu page */
+    #our-pizza-menu {
+        margin-top: 10%;
+    }
+
+    #our-bbq-menu {
+        margin-top: 10%;
+    }
 }
 
 /* for medium screen sizes from 950px wide and down */
