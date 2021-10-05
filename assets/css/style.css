@@ -690,6 +690,48 @@ hr {
 
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+    /* heading */
+    #head-bg img {
+        padding-top: 30px;
+    }
+
+    #menu {
+        line-height: 100px;
+    }
+
+    /* homepage */
+    #recent-news {
+        height: 2000px;
+    }
+    .card-left, .card-middle, .card-right {
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+    }
+
+    .card-middle {
+        position: relative;
+        top: 4%;
+    }
+
+    .card-img {
+        width: 50%;
+        height: 101%;
+        position: relative;
+        bottom: 0;
+        float: left;
+        display: block;
+    }
+
+    .news-container {
+        padding: 10px 20px;
+        position: relative;
+        bottom: 0;
+        float: right;
+        display: block;
+    }
+
+
 
 }
 
