@@ -155,7 +155,7 @@ a.left:hover:before {
 /* news */
 
 #recent-news {
-    height: 900px;
+    height: 850px;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -176,13 +176,15 @@ a.left:hover:before {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: .3s;
     overflow: hidden;
-    height: 630px;
+    height: 500px;
     margin-top: 2%;
 }
 
 .card-img {
     width: 100%;
-    
+    height: 75%;
+    position: relative;
+    bottom: 60px;
 }
 
 .card-right {
@@ -193,7 +195,7 @@ a.left:hover:before {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: .3s;
     border-radius: 25px;
-    height: 630px;
+    height: 500px;
     margin-top: 2%;
 }
 
@@ -205,7 +207,7 @@ a.left:hover:before {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: .3s;
     border-radius: 25px;
-    height: 630px;
+    height: 500px;
 }
 
 .card-left:hover, .card-middle:hover, .card-right:hover {
@@ -214,7 +216,13 @@ a.left:hover:before {
 
 .news-container {
     padding: 10px 20px;
-  }
+    position: relative;
+    bottom: 60px;
+}
+
+.card-a h1 {
+    font-size: 130%;
+}
 
 .card-a {
     color: #000;
@@ -226,7 +234,7 @@ a.left:hover:before {
     padding-top: 2%;
 }
 
-/* contact us */
+/* contact us section*/
 #contact-us {
     height: 325px;
     margin-left: 5%;
@@ -644,4 +652,17 @@ hr {
     width: 100%;
 }
 /* responsiveness */
+/* for large screens sizes from 1200px and down */
+@media screen and (max-width: 1200px) {
 
+}
+
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+}
+
+/* for small screen sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    
+}
