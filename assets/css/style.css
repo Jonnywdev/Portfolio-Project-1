@@ -672,6 +672,20 @@ hr {
     #our-bbq-menu {
         margin-top: 10%;
     }
+
+    /* about us */
+    #welcome {
+        margin-top: 10%;
+    }
+
+    #reviews {
+        height: 550px;
+    }
+
+    /* contact us */
+    #gallery-section {
+        height: 900px;
+    }
 }
 
 /* for medium screen sizes from 950px wide and down */
