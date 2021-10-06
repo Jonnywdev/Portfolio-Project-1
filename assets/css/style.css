@@ -904,5 +904,27 @@ hr {
         margin-bottom: 7%;
     }
 
+    /* about us */
+    #reviews {
+        height: 1000px;
+    }
 
+    .review-card-left, .review-card-middle, .review-card-right {
+        width: 100%;
+        height: 25%;
+        margin-bottom: 5%;
+    }
+
+    #reviews p {
+        text-align: center;
+    }
+
+    /* contact us */
+    #gallery-section {
+        height: 3500px;
+    }
+
+    .photos {
+        column-count: 2;
+    }
 }
