@@ -842,6 +842,10 @@ hr {
 
     .info-left {
         width: 100%;
+        height: 380px;
+    }
+    .info-right > img {
+        height: auto;
     }
 
     .info-right {
@@ -905,6 +909,10 @@ hr {
     }
 
     /* about us */
+    .info-left {
+        height: 450px;
+    }
+
     #reviews {
         height: 1000px;
     }
@@ -926,5 +934,57 @@ hr {
 
     .photos {
         column-count: 2;
+    }
+}
+
+/* for small screen sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+    /* header */
+    #menu {
+        font-size: 120%;
+    }
+
+    /* index page */
+    #cover-text {
+        right: 50px;
+    }
+
+    .news-container {
+        padding: 25px 25px;
+    }
+
+    #middle-h1 {
+        padding-bottom: 5%;
+    }
+    /* contact us section (on most pages)*/
+    #contact-us {
+        height: 280px;
+    }
+
+    #contact-us h1 {
+        font-size: 150%;
+    }
+
+    #contact-us h2 {
+        padding-top: 10px;
+        font-size: 115%;
+    }
+
+    .contact-us-btn {
+        font-size: 150%;
+    }
+
+    /* our menu */
+    #our-bbq-menu, #our-pizza-menu {
+        height: 1150px;
+    }
+
+    /* about us */
+    .info-left {
+        height: 530px;
+    }
+
+    #gallery-section {
+        height: 2900px;
     }
 }
