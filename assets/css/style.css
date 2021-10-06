@@ -798,5 +798,21 @@ hr {
 
 /* for small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-    
+    /* footer */
+    .hide {
+        display: none;
+    }
+
+    #footer-bg img {
+        padding: 10% 0;
+    }
+
+    #footer-menu {
+        width: 75%;
+        margin-right: 9%;
+        font-size: 180%;
+        letter-spacing: 2px;
+        padding-left: 0;
+        padding-top: 20%;
+    }
 }
