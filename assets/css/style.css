@@ -988,3 +988,101 @@ hr {
         height: 2900px;
     }
 }
+
+/* for the smallest screen sizes from 450px wide and down */
+@media screen and (max-width: 450px) {
+    /* header */
+    #menu {
+        font-size: 100%;
+    }
+
+    /* index page */
+    #cover-text {
+        right: 0;
+        width: 100%;
+    }
+
+    #recent-news {
+        height: 1000px;
+    }
+
+    .card-left, .card-middle, .card-right {
+        height: 20%;
+    }
+
+    .card-middle {
+        top: 2%;
+    }
+
+    .card-a h1 {
+        font-size: 110%;
+    }
+
+    .card-a p {
+        font-size: 100%;
+    }
+
+    /* contact us section (on most pages)*/
+    #contact-us {
+        height: 240px;
+    }
+
+    #contact-us h1 {
+        font-size: 125%;
+    }
+
+    #contact-us h2 {
+        padding-top: 5px;
+        font-size: 100%;
+        padding-bottom: 5px;
+    }
+
+    .contact-us-btn {
+        font-size: 125%;
+    }
+
+    /* footer */
+    #footer-bg img {
+        height: 60%;
+        padding-top: 10%;
+        padding-bottom: 2%;
+    }
+
+    #footer-menu {
+        font-size: 150%;
+        padding-top: 0%;
+    }
+
+    #footer-bg {
+        height: 500px;
+    }
+
+    /* our menu */
+    .menu-left {
+        padding-bottom: 15%;
+    }
+
+    /* about us */
+
+    #welcome {
+        height: 890px;
+    }
+
+    .info-left p {
+        text-align: left;
+    }
+
+    /* contact us */
+    #contact {
+        height: 800px;
+    }
+
+    .form-wrapper {
+        height: 450px;
+    }
+
+    #gallery-section {
+        height: 2400px;
+    }
+
+}
