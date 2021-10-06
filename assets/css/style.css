@@ -701,18 +701,18 @@ hr {
 
     /* homepage */
     #recent-news {
-        height: 2000px;
+        height: 1300px;
     }
     .card-left, .card-middle, .card-right {
         width: 100%;
         display: flex;
         margin-top: 5%;
-        height: 10%;
+        height: 23%;
     }
 
     .card-middle {
         position: relative;
-        top: 4%;
+        top: 5%;
     }
 
     .card-img {
@@ -725,7 +725,7 @@ hr {
     }
 
     .news-container {
-        padding: 25px 70px;
+        padding: 70px 70px;
         position: relative;
         bottom: 0;
         float: right;
