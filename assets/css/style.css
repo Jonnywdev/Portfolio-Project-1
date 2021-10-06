@@ -859,3 +859,21 @@ hr {
     }
 }
 
+/* for small screen sizes from 600px wide and down */
+@media screen and (max-width: 600px) {
+    /* header */
+    #head-bg {
+        text-align: center;
+    }
+
+    #head-bg img {
+        padding: 0;
+        height: 25%;
+        width: 25%;
+    }
+
+    #menu {
+        text-align: center;
+        margin-right: 0;
+    }
+}
