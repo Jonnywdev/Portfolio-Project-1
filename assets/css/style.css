@@ -815,4 +815,24 @@ hr {
         padding-left: 0;
         padding-top: 20%;
     }
+
+    /* our menu page */
+    #our-pizza-menu {
+        height: 1400px;
+    }
+
+    .menu-left {
+        width: 100%;
+    }
+
+    .menu-right {
+        float: left;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    #our-bbq-menu {
+        height: 1400px; 
+    }
 }
+
