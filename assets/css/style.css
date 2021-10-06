@@ -864,16 +864,45 @@ hr {
     /* header */
     #head-bg {
         text-align: center;
+        padding-top: 5%;
     }
 
     #head-bg img {
         padding: 0;
         height: 25%;
         width: 25%;
+        float: none;
     }
 
     #menu {
         text-align: center;
         margin-right: 0;
     }
+
+    /* index page */
+    #cover-text { 
+        text-align: center;
+        width: 80%;
+        right: 60px;
+        padding-left: 0;
+        height: 20%;
+    }
+
+    .card-img {
+        width: 50%;
+    }
+
+    .news-container {
+        padding: 50px 50px;
+    }
+
+    .card-middle {
+        top: 3%;
+    }
+
+    #cover-text h2 {
+        margin-bottom: 7%;
+    }
+
+
 }
