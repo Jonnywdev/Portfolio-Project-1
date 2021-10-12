@@ -21,3 +21,17 @@ I got inspiration for this project off one of my current jobs at https://www.ace
 * [Screenshots](#Screenshots)
 * [The future of the site](#Future)
 
+
+
+
+
+# Website owner business goals
+# User goals
+# Features
+# Technology
+# Testing
+# Deployment
+# Credits
+# Screenshots
+# The future of the site
+
