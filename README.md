@@ -2,6 +2,11 @@
 # Mozz's Pizza & BBQ
 
 ![Mockup of website on computer, laptop and phone](assets/md-images/mockup.png)
+This website presents Mozz's Pizza and BBQ, a catering company. Users will be people looking for a caterer for a private or public event and they will be able to find interesting content in a simple and easy way.
+
+The main aim of this project was to produce a reponsive easy to use website, by only using HTML and CSS.
+
+I got inspiration for this project off one of my current jobs at https://www.acebars.co.uk/ my boss always said he would love to rebrand so I thought that I would give it a go.
 
 ## Table of contents
 * [Website owner business goals](#Website-owner-business-goals)
