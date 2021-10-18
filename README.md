@@ -43,6 +43,24 @@ I used Adobe XD to create my wireframes.
 
 #### Wireframe for mobile screens
 ![wireframes](assets/md-images/wireframe-small-screens.png)
+
+### Site styles
+
+#### Colours
+* Background Colour - #D8CB97
+* Secondry Colour - #1F1E20
+* Main Typeface Colour - #1F1E20
+* Secondry Typeface Colour - #D8CB97
+
+#### Fonts
+* For my fonts I used 'Mukta', with a backup off sans-serif.
+
+#### Images 
+
+* For my images I used [Unsplash.com](www.unsplash.com) and they are credited in [credits](#credits) section.
+
+* I also used my own images, As this website is dedicated to one of my current jobs I have taken my own pictures when at events.
+
 # Technology
 # Testing
 # Deployment
