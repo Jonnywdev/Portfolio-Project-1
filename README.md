@@ -38,7 +38,7 @@ The website is designed to give the user a great experience and to be user-frien
 
 ### Wireframes
 I used Adobe XD to create my wireframes.
-![wireframes](assets/md-images/mockup.png)
+![wireframes](assets/md-images/wireframe-big-screens.png)
 # Technology
 # Testing
 # Deployment
