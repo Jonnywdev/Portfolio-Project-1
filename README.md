@@ -79,6 +79,11 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - The footer, on big and medium sized screens are the same, with the logo on the left and navigation links to the main site pages, underneath is the address and phone number, social media links and copyright section.
 - The footer, on smaller screens has the logo in the middle with just the address, contact number, social links and the copyright section.
 
+* #### Home
+* ##### Hero Image
+- This section holds the hero image that covers the whole section.
+* ##### Recent News
+* ##### Contact us
 # Technology
 # Testing
 # Deployment
