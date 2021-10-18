@@ -65,7 +65,15 @@ I used Adobe XD to create my wireframes.
 The website consists of 8 pages. Four are accessible from a navigation menu. Three are news pages and one is a submission confirmation page for the contact form.
 
 ## Navigation bar
+* Navigation bar is visable on the top of each page, it is responsive to screen size and will adapt when the size changes.
 
+* Navigation scheme:
+- On the left side there is the logo, which also can be used as a navigation link to the index page.
+- On the right side there are 4 links, which are:
+    - Home
+    - Our Menu
+    - About us
+    - Contact us
 
 # Technology
 # Testing
