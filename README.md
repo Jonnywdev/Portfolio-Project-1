@@ -35,6 +35,10 @@ The main reason that this website exists is to help a small catering company pre
 # Features
 ## Clean structure
 The website is designed to give the user a great experience and to be user-friendly on all types of devices. There will be no difference in the experience users have when on a mobile compared to a laptop!
+
+### Wireframes
+I used Adobe XD to create my wireframes.
+![wireframes](assets/md-images/mockup.png)
 # Technology
 # Testing
 # Deployment
