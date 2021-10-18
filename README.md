@@ -61,6 +61,12 @@ I used Adobe XD to create my wireframes.
 
 * I also used my own images, As this website is dedicated to one of my current jobs I have taken my own pictures when at events.
 
+## Features of the Website
+The website consists of 8 pages. Four are accessible from a navigation menu. Three are news pages and one is a submission confirmation page for the contact form.
+
+## Navigation bar
+
+
 # Technology
 # Testing
 # Deployment
