@@ -94,14 +94,24 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - It is a small section which gives the visiter the chance to jump straight to the contact us section. 
 
 * #### Our Menu
-* ##### 
-* #####
+* ##### Menu Sections
+- Both menu sections are the same, they contain a header and text on the left and 4 images on the right, however when the screen switches to mobile the header and text is centered to the middle and the images are underneath.
 * ##### Contact us
+- The contact us section is seen on all pages other than the "Contact-us" page.
+- It is a small section which gives the visiter the chance to jump straight to the contact us section. 
 
 * #### About Us
 * ##### Company Info
+- The company info includes a couple of paragraphs giving the visiter information about who we are, who the owner is and where we have come from.
+- On big and medium screens there is an image on the right, when the view moves to a smaller screen the images is layed out underneath the text.
 * ##### Contact us
+- The contact us section is seen on all pages other than the "Contact-us" page.
+- It is a small section which gives the visiter the chance to jump straight to the contact us section. 
 * ##### Reviews
+- The review section has the small cards displaying our most recent reviews.
+- Each card has stars at the top that the customer has given to us, and the review that they have given to us beneath it.
+- Like the recent news section the cards are stacked in a row on big/medium screen sizes then switches to collums on smaller screen sizes.
+- It also has the same hover effect as the recent news section, with a shaddow being added on hover, giving it the effect that it lifts off the page.
 
 * #### Contact Us
 * ##### Contact us form
