@@ -88,9 +88,25 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - On big and medium screens. The cards are stacked in a row, each card has an image on top and a bit of information on the bottom.
 - On mobile screens the 3 cards are stacked on top of each other in a row. The card is layed out differently too with the image on the left and the text on the right.
 - All cards have a hover effect which adds shaddow to it, giving it the effect it's lifted above the rest.
+- All cards are links to seperate pages that are unreachable on the main nav bar. 
 * ##### Contact us
 - The contact us section is seen on all pages other than the "Contact-us" page.
 - It is a small section which gives the visiter the chance to jump straight to the contact us section. 
+
+* #### Our Menu
+* ##### 
+* #####
+* ##### Contact us
+
+* #### About Us
+* ##### Company Info
+* ##### Contact us
+* ##### Reviews
+
+* #### Contact Us
+* ##### Contact us form
+* ##### Gallery
+
 # Technology
 # Testing
 # Deployment
