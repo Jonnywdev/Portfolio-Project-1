@@ -82,8 +82,15 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 * #### Home
 * ##### Hero Image
 - This section holds the hero image that covers the whole section.
+- It also has an overlapping div which gives visiters the chance to go straight to our menu page.
 * ##### Recent News
+- This section shows 3 cards about the recent news of the company.
+- On big and medium screens. The cards are stacked in a row, each card has an image on top and a bit of information on the bottom.
+- On mobile screens the 3 cards are stacked on top of each other in a row. The card is layed out differently too with the image on the left and the text on the right.
+- All cards have a hover effect which adds shaddow to it, giving it the effect it's lifted above the rest.
 * ##### Contact us
+- The contact us section is seen on all pages other than the "Contact-us" page.
+- It is a small section which gives the visiter the chance to jump straight to the contact us section. 
 # Technology
 # Testing
 # Deployment
