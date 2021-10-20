@@ -124,23 +124,23 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - On big screens the collumn count is 6, on medium screens it is 3 and on smaller screens it is 2.
 
 # Technology
-#### HTML5
+### HTML5
 * As a structure language.
-#### CSS
+### CSS
 * As a style language
-#### Font Awesome
+### Font Awesome
 * As an icon library for social links.
-#### Google Fonts
+### Google Fonts
 * As a font resource.
-#### GitHub
+### GitHub
 * As a software hosting platform to keep the project in a remote location.
-#### Git 
+### Git 
 * As a version-control system tracking.
-#### Gitpod
+### Gitpod
 * As a development hosting platform.
-#### Adobe XD
+### Adobe XD
 * As a wireframing tool.
-#### Adobe Photoshop
+### Adobe Photoshop
 * As an image editor.
 
 # Testing
