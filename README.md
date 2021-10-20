@@ -60,6 +60,7 @@ I used Adobe XD to create my wireframes.
 * For my images I used [Unsplash.com](https://unsplash.com) and they are credited in [credits](#credits) section.
 
 * I also used my own images, As this website is dedicated to one of my current jobs I have taken my own pictures when at events.
+[Back to Table of contents](#table-of-contents)
 
 ## Features of the Website
 The website consists of 8 pages. Four are accessible from a navigation menu. Three are news pages and one is a submission confirmation page for the contact form.
@@ -122,6 +123,7 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 * ##### Gallery
 - The gallery has lots off diferent images in it, to show the different range in events that we offer.
 - On big screens the collumn count is 6, on medium screens it is 3 and on smaller screens it is 2.
+[Back to Table of contents](#table-of-contents)
 
 # Technology
 ### HTML5
@@ -142,6 +144,7 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 * As a wireframing tool.
 ### Adobe Photoshop
 * As an image editor.
+[Back to Table of contents](#table-of-contents)
 
 # Testing
 # Deployment
