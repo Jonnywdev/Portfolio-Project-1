@@ -67,7 +67,7 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 ## Navigation bar
 * Navigation bar is visable on the top of each page, it is responsive to screen size and will adapt when the size changes.
 
-* #### Navigation scheme:
+#### Navigation scheme:
 - On the left side there is the logo, which also can be used as a navigation link to the index page.
 - On the right side there are 4 links, which are:
     - Home
@@ -75,11 +75,11 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
     - About us
     - Contact us
 
-* #### Footer:
+#### Footer:
 - The footer, on big and medium sized screens are the same, with the logo on the left and navigation links to the main site pages, underneath is the address and phone number, social media links and copyright section.
 - The footer, on smaller screens has the logo in the middle with just the address, contact number, social links and the copyright section.
 
-* #### Home
+#### Home
 * ##### Hero Image
 - This section holds the hero image that covers the whole section.
 - It also has an overlapping div which gives visiters the chance to go straight to our menu page.
@@ -93,14 +93,14 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - The contact us section is seen on all pages other than the "Contact-us" page.
 - It is a small section which gives the visiter the chance to jump straight to the contact us section. 
 
-* #### Our Menu
+#### Our Menu
 * ##### Menu Sections
 - Both menu sections are the same, they contain a header and text on the left and 4 images on the right, however when the screen switches to mobile the header and text is centered to the middle and the images are underneath.
 * ##### Contact us
 - The contact us section is seen on all pages other than the "Contact-us" page.
 - It is a small section which gives the visiter the chance to jump straight to the contact us section. 
 
-* #### About Us
+#### About Us
 * ##### Company Info
 - The company info includes a couple of paragraphs giving the visiter information about who we are, who the owner is and where we have come from.
 - On big and medium screens there is an image on the right, when the view moves to a smaller screen the images is layed out underneath the text.
@@ -113,7 +113,7 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - Like the recent news section the cards are stacked in a row on big/medium screen sizes then switches to collums on smaller screen sizes.
 - It also has the same hover effect as the recent news section, with a shaddow being added on hover, giving it the effect that it lifts off the page.
 
-* #### Contact Us
+#### Contact Us
 * ##### Contact us secttion
 - This section holds 2 ellements a contact form and a text section.
 - The contact form has the secondry colour as it's background and takes up 60% of the screen. Our visiters are able to easily contact us by filling out the form and adding a message of what they want from us.
@@ -124,6 +124,25 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - On big screens the collumn count is 6, on medium screens it is 3 and on smaller screens it is 2.
 
 # Technology
+#### HTML5
+* As a structure language.
+#### CSS
+* As a style language
+#### Font Awesome
+* As an icon library for social links.
+#### Google Fonts
+* As a font resource.
+#### GitHub
+* As a software hosting platform to keep the project in a remote location.
+#### Git 
+* As a version-control system tracking.
+#### Gitpod
+* As a development hosting platform.
+#### Adobe XD
+* As a wireframing tool.
+#### Adobe Photoshop
+* As an image editor.
+
 # Testing
 # Deployment
 # Credits
