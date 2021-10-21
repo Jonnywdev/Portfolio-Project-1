@@ -880,11 +880,7 @@ hr {
 
     /* index page */
     #cover-text { 
-        text-align: center;
-        width: 80%;
-        right: 60px;
-        padding-left: 0;
-        height: 20%;
+        display: none;
     }
 
     .card-img {
@@ -899,9 +895,7 @@ hr {
         top: 3%;
     }
 
-    #cover-text h2 {
-        margin-bottom: 7%;
-    }
+    
 
     /* about us */
     .info-left {
