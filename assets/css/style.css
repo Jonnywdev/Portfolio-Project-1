@@ -23,6 +23,9 @@ a {
 }
 
 /* header */
+.nav-for-mobile {
+    display: none;
+}
 
 #head-bg {
     background-color: #1F1E20;
@@ -864,18 +867,23 @@ hr {
     #head-bg {
         text-align: center;
         padding-top: 5%;
+        padding-bottom: 150px;
     }
 
     #head-bg img {
-        padding: 0;
+        padding: 20px;
         height: 25%;
         width: 25%;
-        float: none;
+        float: left;
     }
 
-    #menu {
-        text-align: center;
-        margin-right: 0;
+    #menu{
+        display: none;
+    }
+    /* nav for smaller screens */
+
+    .nav-for-mobile {
+        display: block;
     }
 
     /* index page */
