@@ -904,6 +904,15 @@ hr {
         display: flex;
         flex-direction: column;
     }
+
+    /* our menu */
+    #our-pizza-menu{
+        height: auto;
+    }
+
+    #our-bbq-menu  {
+        height: auto;
+    }
     
 
     /* about us */
@@ -919,6 +928,18 @@ hr {
         width: 100%;
         height: 25%;
         margin-bottom: 5%;
+    }
+
+    .info-right {
+        width: 100%;
+    }
+
+    .info-right > img {
+        width: 100%;
+    }
+
+    #welcome {
+        height: 115vh;
     }
 
     #reviews p {
