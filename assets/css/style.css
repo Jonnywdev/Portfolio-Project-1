@@ -876,13 +876,6 @@ hr {
 
     #head-bg img {
         padding: 20px;
-        height: 25%;
-        width: 25%;
-        float: left;
-    }
-
-    #head-bg img {
-        padding: 65px;
         height: auto;
         width: 25%;
         float: left;
@@ -892,6 +885,13 @@ hr {
         display: none;
     }
     /* nav for smaller screens */
+
+    #nav-img {
+        padding: 35px 0 0 35px;
+        height: auto;
+        width: 25%;
+        float: left;
+    }
 
     #smaller-nav {
         display: block;
@@ -905,7 +905,6 @@ hr {
       right: 50px;
       float: right;
       z-index: 1;
-      
       -webkit-user-select: none;
       user-select: none;
     }
@@ -914,8 +913,6 @@ hr {
     {
       text-decoration: none;
       color: #D8CB97;
-      
-      transition: color 0.3s ease;
     }
     
     #menuToggle input
@@ -1016,7 +1013,7 @@ hr {
     
     #small-menu li
     {
-        padding: 10px 0;
+        padding: 10px 170px;
         font-size: 3em;
         position: relative;
         top: 5em;
