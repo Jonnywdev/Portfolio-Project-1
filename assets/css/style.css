@@ -1025,6 +1025,8 @@ hr {
     #menuToggle input:checked ~ ul
     {
         top: 0rem;
+        display: flex;
+        flex-direction: column;
     }
 
     /* index page */
@@ -1123,7 +1125,7 @@ hr {
     #small-menu li {
         padding: 15px 150px;
         font-size: 2.3em;
-        top: 7em;
+        top: 5em;
     }
 
     /* index page */
@@ -1188,9 +1190,6 @@ hr {
         height: 4px;
     }
 
-    #small-menu li{
-        margin: 0 auto;
-    }
 }
 
 /* for the smallest screen sizes from 450px wide and down */
