@@ -34,6 +34,8 @@ a {
 #head-bg {
     background-color: #1F1E20;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 #head-bg img {
@@ -871,7 +873,7 @@ hr {
     #head-bg {
         text-align: center;
         padding-top: 5%;
-        padding-bottom: 150px;
+        top: 0;
     }
 
     #head-bg img {
@@ -1030,8 +1032,16 @@ hr {
     }
 
     /* index page */
+    #hero-outer {
+        top: 100px;
+    }
     #cover-text { 
         display: none;
+    }
+
+    #recent-news {
+        position: relative;
+        top: 100px;
     }
 
     .card-img {
@@ -1056,13 +1066,25 @@ hr {
         flex-direction: column;
     }
 
+    #contact-us {
+        position: relative;
+        top: 100px;
+    }
+
+    #footer-bg {
+        margin-top: 100px;
+    }
     /* our menu */
     #our-pizza-menu{
         height: auto;
+        position: relative;
+        top: 175px;
     }
 
     #our-bbq-menu  {
         height: auto;
+        position: relative;
+        top: 125px;
     }
     
 
@@ -1073,6 +1095,8 @@ hr {
 
     #reviews {
         height: 1000px;
+        position: relative;
+        top: 75px;
     }
 
     .review-card-left, .review-card-middle, .review-card-right {
@@ -1090,7 +1114,9 @@ hr {
     }
 
     #welcome {
-        height: 115vh;
+        height: 130vh;
+        position: relative;
+        top: 175px;
     }
 
     #reviews p {
@@ -1098,8 +1124,14 @@ hr {
     }
 
     /* contact us */
+    #contact {
+        position: relative;
+        top: 175px;
+    }
     #gallery-section {
         height: 3500px;
+        position: relative;
+        top: 125px;
     }
 
     .photos {
