@@ -1015,7 +1015,7 @@ hr {
     
     #small-menu li
     {
-        padding: 10px 170px;
+        padding: 10px;
         font-size: 3em;
         position: relative;
         top: 5em;
@@ -1146,21 +1146,27 @@ hr {
         font-size: 120%;
     }
 
-    #head-bg {
-        padding-bottom: 120px;
-    }
+    
     /* hamburger menu */
     #menuToggle {
         top: 33px;
     }
 
     #small-menu li {
-        padding: 15px 150px;
+        padding: 15px;
         font-size: 2.3em;
         top: 5em;
     }
 
     /* index page */
+    #hero-outer {
+        top: 125px;
+    }
+
+    #recent-news {
+        top: 150px;
+        height: 1200px;
+    }
     #cover-text {
         right: 50px;
     }
