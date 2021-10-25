@@ -1211,25 +1211,6 @@ hr {
     }
 }
 
-@media screen and (max-width: 400px) {
-    /* header */
-    #head-bg {
-        padding-bottom: 100px;
-    }
-
-    /* hamburger menu */
-
-    #menuToggle {
-        top: 20px;
-    }
-
-    #menuToggle span {
-        width: 44px;
-        height: 4px;
-    }
-
-}
-
 /* for the smallest screen sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
     /* header */
@@ -1324,6 +1305,67 @@ hr {
 
     #gallery-section {
         height: 2400px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    /* header */
+
+    /* hamburger menu */
+
+    #menuToggle {
+        top: 20px;
+    }
+
+    #menuToggle span {
+        width: 44px;
+        height: 4px;
+    }
+
+    /* about us  */
+    #welcome {
+        height: 1175px;
+    }
+
+    .info-right {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+/* index page */
+    #recent-news {
+        height: 900px;
+    }
+
+    /* our menu */
+    .menu-right {
+        margin-top: 30%;
+    }
+
+    #our-bbq-menu {
+        height: 1125px;
+    }
+
+    /* contact us */
+    #gallery-section {
+        height: 2200px;
+        top: 200px;
+    }
+
+    /* about us */
+    #welcome {
+        height: 1200px;
+    }
+
+    .info-right {
+        padding-top: 150px;
+    }
+
+    #reviews {
+        height: 900px;
     }
 
 }
