@@ -858,6 +858,19 @@ a.back-btn:hover:before {
     .photos {
         column-count: 3;
     }
+
+    /* form submission */
+    .form-submited-text-wrapped h1 {
+        font-size: 160%;
+    }
+
+    .form-submited-text-wrapped h3 {
+        font-size: 80%;
+    }
+
+    .back-btn {
+        font-size: 135%;
+    }
 }
 
 /* for small screen sizes from 800px wide and down */
@@ -924,6 +937,18 @@ a.back-btn:hover:before {
 
     #gallery-section {
         height: 2200px;
+    }
+
+    /* form submission page */
+    .form-submited-text-wrapped {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 650px) {
+    /* header */
+    #menu {
+        font-size: 100%;
+        line-height: 70px;
     }
 }
 
@@ -1197,6 +1222,11 @@ a.back-btn:hover:before {
     .photos {
         column-count: 2;
     }
+
+    /* form submission page */
+    .form-submited-text-wrapped {
+        width: 90%;
+    }  
 }
 
 /* for small screen sizes from 500px wide and down */
@@ -1268,7 +1298,7 @@ a.back-btn:hover:before {
 
     #gallery-section {
         height: 2900px;
-    }
+    }  
 }
 
 /* for the smallest screen sizes from 450px wide and down */
@@ -1367,6 +1397,19 @@ a.back-btn:hover:before {
         height: 2400px;
     }
 
+    /* form submission page */
+    .form-submited-text-wrapped h1 {
+        font-size: 135%;
+    }
+
+    .form-submited-text-wrapped h3 {
+        font-size: 65%;
+    }
+
+    .back-btn {
+        font-size: 100%;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -1426,6 +1469,19 @@ a.back-btn:hover:before {
 
     #reviews {
         height: 900px;
+    }
+
+    /* form submission page */
+    .form-submited-text-wrapped h1 {
+        font-size: 110%;
+    }
+
+    .form-submited-text-wrapped h3 {
+        font-size: 55%;
+    }
+
+    .back-btn {
+        font-size: 90%;
     }
 
 }
