@@ -113,6 +113,9 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - Each card has stars at the top that the customer has given to us, and the review that they have given to us beneath it.
 - Like the recent news section the cards are stacked in a row on big/medium screen sizes then switches to collums on smaller screen sizes.
 - It also has the same hover effect as the recent news section, with a shaddow being added on hover, giving it the effect that it lifts off the page.
+* ##### Gallery
+- The gallery has lots off diferent images in it, to show the different range in events that we offer.
+- On big screens the collumn count is 6, on medium screens it is 3 and on smaller screens it is 2.
 
 #### Contact Us
 * ##### Contact us secttion
@@ -120,9 +123,7 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - The contact form has the secondry colour as it's background and takes up 60% of the screen. Our visiters are able to easily contact us by filling out the form and adding a message of what they want from us.
 - The text ellement has useful information on how our customers can contact us if they don't want to use the contact form.
 - On big and medium screens the elements are shown in a row with the contact form on the left. Then on small screens the elements are shown in a collumn with the contact form on top.
-* ##### Gallery
-- The gallery has lots off diferent images in it, to show the different range in events that we offer.
-- On big screens the collumn count is 6, on medium screens it is 3 and on smaller screens it is 2.
+
 [Back to Table of contents](#table-of-contents)
 
 # Technology
