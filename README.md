@@ -67,7 +67,9 @@ I used Adobe XD to create my wireframes.
 * For my images I used [Unsplash.com](https://unsplash.com) and they are credited in [credits](#credits) section.
 
 * I also used my own images, As this website is dedicated to one of my current jobs I have taken my own pictures when at events.
+<br>
 [Back to Table of contents](#table-of-contents)
+
 
 ## Features of the Website
 The website consists of 8 pages. Four are accessible from a navigation menu. Three are news pages and one is a submission confirmation page for the contact form.
@@ -131,7 +133,9 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - The text ellement has useful information on how our customers can contact us if they don't want to use the contact form.
 - On big and medium screens the elements are shown in a row with the contact form on the left. Then on small screens the elements are shown in a collumn with the contact form on top.
 
+<br>
 [Back to Table of contents](#table-of-contents)
+
 
 # Technology
 ### HTML5
@@ -152,11 +156,49 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 * As a wireframing tool.
 ### Adobe Photoshop
 * As an image editor.
+<br>
 [Back to Table of contents](#table-of-contents)
 
 # Testing
+## Functionality Testing
+I used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+
+## Compatibility Testing
+The website was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both web developer tools.
+
+I tested on hardware devices such as: Apple Ipad 12 pro, Samsung S20 Ultra smartphone with Android 10 and used a Iphone 5 to compare the diference in size.
+
+## User Stories Testing
+### As a buisness owner:
+- To help a small catering company present itself to the public.
+- Have a great SEO website to help find new clients and fans.
+* Have an easy way for new or existing clients to contact them.
+
+##
+
+##
+
+<br>
+[Back to Table of contents](#table-of-contents)
+
 # Deployment
+
+<br>
+[Back to Table of contents](#table-of-contents)
+
 # Credits
+
+<br>
+[Back to Table of contents](#table-of-contents)
+
 # Screenshots
+
+<br>
+[Back to Table of contents](#table-of-contents)
+
 # The future of the site
+
+<br>
+[Back to Table of contents](#table-of-contents)
+
 
