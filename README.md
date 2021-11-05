@@ -25,13 +25,20 @@ I got inspiration for this project off one of my current jobs at https://www.ace
 
 
 
-# Website owner business goals
-The main reason that this website exists is to help a small catering company present itself to the public. The page owner can present recent news, reviews and a gallery of different foods and events, with an easy way for the potential clients to enquire about hiring them out.
 # User goals
 ## All user goals
 - User is able to easily navigate through the site.
 - User is able to find information out easily.
 - User can find the location of the contact details.
+## Returning user goals
+- User is able to easily find new menu's, images and news reports.
+- User can send a message to the company using a contact form.
+- Can learn more about the company
+## Website owner business goals
+- To help a small catering company present itself to the public.
+- Have a great SEO website to help find new clients and fans.
+- Have an easy way for new or existing clients to contact them.
+
 # Features
 ## Clean structure
 The website is designed to give the user a great experience and to be user-friendly on all types of devices. There will be no difference in the experience users have when on a mobile compared to a laptop!
