@@ -202,10 +202,14 @@ I used the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-
 
 - Issues with margin & padding as the screens get smaller.
 ![No gap between the header and the contact form](assets/md-images/no-gap.png)
+I noticed that as the screen sizes got smaller the margin on the contact page wasnt working for some reason. I fixed the issue by giving the section with ID contact a position of relative and an element top of 150px.
 ## Performance Testing
-
+I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website. I had to make a few changes that I needed to make to improve the scores. Screenshots and supporting text is presented below:
+- Initial screenshot.
+![Lighthouse initial screenshot](assets/md-images/lighthouse-1.png)
 
 ## Code Validation
+At the end of the project I used 2 websites to validate the code.
 <br>
 [Back to Table of contents](#table-of-contents)
 
