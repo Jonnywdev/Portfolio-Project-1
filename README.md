@@ -241,9 +241,21 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
 [Back to Table of contents](#table-of-contents)
 
 # Credits
+* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* Ideas and knowledge library:
+
+    * [w3schools.com](https://www.w3schools.com)
+
+    * [css-tricks.com](https://css-tricks.com/)
+
+    * [stackoverflow.com](https://stackoverflow.com/)
+    
+    * [codepen.io](https://codepen.io/)
 
 ## Code
-## Content
+* Hero image cover text: [Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
+
 ## Images
 
 
