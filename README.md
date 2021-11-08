@@ -186,7 +186,7 @@ I tested on hardware devices such as: Apple Ipad 12 pro, Samsung S20 Ultra smart
 ### As a returning customer
 - User is able to easily find new menu's, images and news 
 reports.
-> User can find the menu, images and news reports all from the home page.
+   > User can find the menu, images and news reports all from the home page.
 - User can send a message to the company using a contact form.
     > User can find a contact form in contact page. Alternatively can use an email or phone number. Email address and phone number are both located in the footer the bottom of each page, as well as on the contact page.
 - Can learn more about the company.
