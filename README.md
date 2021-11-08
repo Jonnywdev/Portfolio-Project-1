@@ -196,6 +196,9 @@ ___
 ## Issues Found During Site Development
 - Horizontal scrolling bar on the bottom of the screen.
 ![Screenshot of page having issue with horizontal scroll](assets/md-images/hor-scroll.png)
+The horizontal scrolling bar is only visable on the home page, so I new there was an element on that page that wasn't working properly. 
+![Screenshot of page having issue with horizontal scroll, using unicorn releavler](assets/md-images/hor-scroll-u.png)
+I used the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser which was very helpful. It helped me understand that my issue was within my hero image. I found that my section with ID hero-outer had a width of 120% instead of 100%.
 
 - Issues with margin & padding as the screens get smaller.
 ![No gap between the header and the contact form](assets/md-images/no-gap.png)
