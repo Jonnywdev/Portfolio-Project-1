@@ -259,9 +259,9 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
 ## Images:
 
 ### Unsplash.com
-    *[Gallery-1.jpg](https://unsplash.com/photos/MqT0asuoIcU)
-    *[Gallery-2.jpg](https://unsplash.com/photos/27TY3Y2kUyU)
-    *[hero-image.jpg](https://unsplash.com/photos/u6NiMLJftRs)
+* [Gallery-1.jpg](https://unsplash.com/photos/MqT0asuoIcU)
+* [Gallery-2.jpg](https://unsplash.com/photos/27TY3Y2kUyU)
+* [hero-image.jpg](https://unsplash.com/photos/u6NiMLJftRs)
 
 <br>
 [Back to Table of contents](#table-of-contents)
