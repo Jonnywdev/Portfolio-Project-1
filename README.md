@@ -171,9 +171,26 @@ I tested on hardware devices such as: Apple Ipad 12 pro, Samsung S20 Ultra smart
 ## User Stories Testing
 ### As a buisness owner:
 - To help a small catering company present itself to the public.
+    > Images of events, information about the company and a news section to help the public understand who we are.
 - Have a great SEO website to help find new clients and fans.
-* Have an easy way for new or existing clients to contact them.
-
+    > With great SEO we will be at the top of most search engines which will help us get more support and clients.
+- Have an easy way for new or existing clients to contact us.
+    > A very simple and easy way for new and existing clients to contact us.
+### As a new customer
+- User is able to easily navigate through the site.
+    > User is able to find the navigation very easily on any screen size.
+- User is able to find information out easily.
+    > User can find any information out very easily by clicking on the about us page, which is on the navigation.
+- User can find the location of the contact details.
+    >  User can find all the details on the contact us page, as well as on the footer
+### As a returning customer
+- User is able to easily find new menu's, images and news 
+reports.
+> User can find the menu, images and news reports all from the home page.
+- User can send a message to the company using a contact form.
+    > User can find a contact form in contact page. Alternatively can use an email or phone number. Email address and phone number are both located in the footer the bottom of each page, as well as on the contact page.
+- Can learn more about the company.
+    > User is able to find any information out easily, they can also access our social media from the links in the footer. Futhermore, they can easily contact us for any other information they need to find out.
 ##
 
 ##
