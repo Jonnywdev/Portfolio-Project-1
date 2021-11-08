@@ -217,6 +217,24 @@ At the end of the project I used 2 websites to validate the code.
 [Back to Table of contents](#table-of-contents)
 
 # Deployment
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system. I used push command in Gitpod to save changes into GitHub.
+
+To deploy a project I had to:
+
+* Log in to GitHub and click on repository to deploy ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Project-1))
+* Select `Settings` and find the Pages section at the second to bottom of the page's navigation menu on the left hand side of the screen. 
+* From source select branch `main` and then the `root` folder.
+* Click `save` and page was deployed after auto-refresh.
+>  Your site is published at https://jonnywdev.github.io/Portfolio-Project-1/
+
+To run localy:
+* Log in to GitHub and click on repository to download ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Project-1))
+* Select `Code` and click Download the ZIP file.
+* After download you can extract the file and use it in your local environment
+
+Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Project-1)) into your github account.
 
 <br>
 [Back to Table of contents](#table-of-contents)
