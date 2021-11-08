@@ -199,8 +199,10 @@ ___
 
 - Issues with margin & padding as the screens get smaller.
 ![No gap between the header and the contact form](assets/md-images/no-gap.png)
-##
+## Performance Testing
 
+
+## Code Validation
 <br>
 [Back to Table of contents](#table-of-contents)
 
@@ -210,6 +212,11 @@ ___
 [Back to Table of contents](#table-of-contents)
 
 # Credits
+
+## Code
+## Content
+## Images
+
 
 <br>
 [Back to Table of contents](#table-of-contents)
