@@ -253,11 +253,15 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
     
     * [codepen.io](https://codepen.io/)
 
-## Code
+## Code:
 * Hero image cover text: [Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
 
-## Images
+## Images:
 
+### Unsplash.com
+    *[Gallery-1.jpg](https://unsplash.com/photos/MqT0asuoIcU)
+    *[Gallery-2.jpg](https://unsplash.com/photos/27TY3Y2kUyU)
+    *[hero-image.jpg](https://unsplash.com/photos/u6NiMLJftRs)
 
 <br>
 [Back to Table of contents](#table-of-contents)
