@@ -191,8 +191,14 @@ reports.
     > User can find a contact form in contact page. Alternatively can use an email or phone number. Email address and phone number are both located in the footer the bottom of each page, as well as on the contact page.
 - Can learn more about the company.
     > User is able to find any information out easily, they can also access our social media from the links in the footer. Futhermore, they can easily contact us for any other information they need to find out.
-##
 
+___
+## Issues Found During Site Development
+- Horizontal scrolling bar on the bottom of the screen.
+![Screenshot of page having issue with horizontal scroll](assets/md-images/hor-scroll.png)
+
+- Issues with margin & padding as the screens get smaller.
+![No gap between the header and the contact form](assets/md-images/no-gap.png)
 ##
 
 <br>
