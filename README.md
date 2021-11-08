@@ -210,6 +210,9 @@ I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to
 
 ## Code Validation
 At the end of the project I used 2 websites to validate the code.
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ * [Nu Html Checker](https://validator.w3.org/) to test HTML
+ All code passed with no errors or warnings.
 <br>
 [Back to Table of contents](#table-of-contents)
 
