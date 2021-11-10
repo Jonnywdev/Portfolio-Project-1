@@ -725,6 +725,22 @@ a.back-btn:hover:before {
     overflow: hidden;
 }
 
+.error-wrapped {
+    display: flex;
+    flex-direction: row;
+}
+
+.error-left {
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+.error-right {
+    float: right;
+    width: 50%;
+    height: 500px;
+}
 
 /* responsiveness */
 /* for large screens sizes from 1200px and down */
