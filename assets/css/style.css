@@ -733,6 +733,7 @@ a.back-btn:hover:before {
     float: left;
     width: 50%;
     height: 500px;
+    padding-top: 5em;
 }
 
 .error-right {
@@ -747,10 +748,14 @@ a.back-btn:hover:before {
 
 #oh-no{
     color: #1F1E20;
+    padding-bottom: 0.5em;
+    font-size: 5em;
 }
 
 #erro-secondry-text {
     color: #1F1E20;
+    padding-bottom: 0.5em;
+    font-size: 1em;
 }
 
 a.start-over-btn{
