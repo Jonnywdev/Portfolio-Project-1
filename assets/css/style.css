@@ -775,6 +775,7 @@ a.start-over-btn:hover:before {
 .start-over-btn {
     font-size: 200%;
     text-transform: uppercase;
+    color: #1F1E20;
 }
 
 /* responsiveness */
