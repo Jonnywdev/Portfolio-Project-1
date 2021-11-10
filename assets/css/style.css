@@ -715,6 +715,17 @@ a.back-btn:hover:before {
     visibility: visible;
     width: 100%;
 }
+/* 404 section */
+#error-section {
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    width: 90%;
+    overflow: hidden;
+}
+
+
 /* responsiveness */
 /* for large screens sizes from 1200px and down */
 @media screen and (max-width: 1100px) {
