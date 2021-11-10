@@ -741,6 +741,34 @@ a.back-btn:hover:before {
     height: 500px;
 }
 
+a.start-over-btn{
+    position: relative;
+}
+
+a.start-over-btn:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  margin-top: 20px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #D8CB97;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.start-over-btn:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+
+.start-over-btn {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
 /* responsiveness */
 /* for large screens sizes from 1200px and down */
 @media screen and (max-width: 1100px) {
