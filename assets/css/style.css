@@ -741,6 +741,10 @@ a.back-btn:hover:before {
     height: 500px;
 }
 
+.error-right img {
+    width: 100%;
+}
+
 #oh-no{
     color: #1F1E20;
 }
