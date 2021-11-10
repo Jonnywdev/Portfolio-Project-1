@@ -957,7 +957,7 @@ a.start-over-btn:hover:before {
         font-size: 4em;
     }
 
-    #error-secondry-text {
+    #error-s-text {
         padding-right: 6em;
         font-size: 1.5em;
     }
@@ -1044,7 +1044,7 @@ a.start-over-btn:hover:before {
         font-size: 3.5em;
     }
 
-    #error-secondry-text {
+    #error-s-text {
         padding-right: 3em;
         font-size: 1.5em;
     }
@@ -1070,7 +1070,7 @@ a.start-over-btn:hover:before {
             font-size: 2.5em;
         }
     
-        #error-secondry-text {
+        #error-s-text {
             padding-right: 10em;
             font-size: 1em;
         }
@@ -1386,7 +1386,7 @@ a.start-over-btn:hover:before {
         font-size: 2.5em;
     }
 
-    #error-secondry-text {
+    #error-s-text {
         font-size: 1em;
     }
 
