@@ -741,6 +741,14 @@ a.back-btn:hover:before {
     height: 500px;
 }
 
+#oh-no{
+    color: #1F1E20;
+}
+
+#erro-secondry-text {
+    color: #1F1E20;
+}
+
 a.start-over-btn{
     position: relative;
 }
@@ -753,7 +761,7 @@ a.start-over-btn:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #D8CB97;
+  background-color: #1F1E20;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
