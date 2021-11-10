@@ -1359,7 +1359,7 @@ a.start-over-btn:hover:before {
     /* 404 page */
 
     #error-section {
-        height: 600px;
+        height: 650px;
         position: relative;
         top: 6em;
     }
@@ -1383,15 +1383,16 @@ a.start-over-btn:hover:before {
     }
 
     #oh-no {
-        font-size: 2.5em;
+        font-size: 4.5em;
     }
 
     #error-s-text {
-        font-size: 1em;
+        font-size: 1.2em;
+        padding-right: 0;
     }
 
     .start-over-btn {
-        font-size: 125%;
+        font-size: 150%;
     }
 }
 
@@ -1465,6 +1466,8 @@ a.start-over-btn:hover:before {
     #gallery-section {
         height: 2900px;
     }  
+
+    
 }
 
 /* for the smallest screen sizes from 450px wide and down */
@@ -1601,6 +1604,23 @@ a.start-over-btn:hover:before {
         padding-top: 50px;
     }
 
+        /* 404 page */
+
+        #error-section {
+            height: 500px;
+            top: 4em;
+        }     
+    
+        #oh-no {
+            font-size: 3em;
+        }
+    
+        #error-s-text {
+            font-size: 1em;
+            padding-right: 0;
+        }
+    
+
 }
 
 @media screen and (max-width: 350px) {
@@ -1648,6 +1668,22 @@ a.start-over-btn:hover:before {
 
     .back-btn {
         font-size: 90%;
+    }
+
+    /* 404 page */
+
+    #error-section {
+        height: 450px;
+        top: 3.5em;
+    }     
+
+    #oh-no {
+        font-size: 3em;
+    }
+
+    #error-s-text {
+        font-size: 1em;
+        padding-right: 0;
     }
 
 }
