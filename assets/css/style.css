@@ -305,32 +305,46 @@ a.contact-us-btn:hover:before {
     position: absolute;
 }
 
+#footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#img-wrapper-foot {
+    width: 50%;
+}
+
 #footer-bg img {
-    width: 20%;
+    width: 50%;
     padding: 20px 0 0 30px;
     float: left;
 }
 
-#footer-menu {
+#footer-menu-wrapper {
+    display: flex;
+    flex-direction: column;
     float: right;
-    font-size: 150%;
+    font-size: 200%;
     letter-spacing: 2px;
     text-align: right;
-    margin-right: 40px;
+    margin: 40px;
+    width: 50%;
 }
 
-#footer-menu li {
+#footer-menu-wrapper li {
     
     list-style-type: none;
     margin-right: 10px;
 }
 
-#footer-menu a {
+#footer-menu-wrapper a {
     text-decoration: none;
     color: #D8CB97;
 }
 
-#footer-menu h3 {
+#footer-menu-wrapper h3 {
     text-decoration: none;
     color: #D8CB97;
     font-size: 50%;
