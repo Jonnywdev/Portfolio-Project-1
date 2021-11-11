@@ -279,9 +279,9 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
 <br>
 [Back to Table of contents](#table-of-contents)
 
-# The future of the site
+<!-- # The future of the site
 
 <br>
-[Back to Table of contents](#table-of-contents)
+[Back to Table of contents](#table-of-contents) -->
 
 
