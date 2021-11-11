@@ -1142,6 +1142,34 @@ a.start-over-btn:hover:before {
             height: 1150px;
         }
 
+        /* footer */
+
+        #footer-menu-wrapper {
+            font-size: 150%;
+        }
+
+        #footer-wrapper {
+            margin: 3%;
+        }
+
+        .info-right {
+            position: relative;
+            top: 5%;
+        }
+
+        #reviews p {
+            padding: 05%;
+            text-align: left;
+            font-size: 90%;
+        }
+
+        #gallery-section {
+            height: 1750px;
+        }
+
+        #head-bg img {
+            width: 10%;
+        }
 }
 
 /* for small screen sizes from 600px wide and down */
