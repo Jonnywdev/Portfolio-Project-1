@@ -365,6 +365,7 @@ a.contact-us-btn:hover:before {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
+    margin-top: 5%;
 }
 
 .form-wrapper {
@@ -1347,6 +1348,7 @@ a.start-over-btn:hover:before {
     #recent-news {
         position: relative;
         top: 100px;
+        height: 1220px;
     }
 
     .card-img {
@@ -1412,6 +1414,7 @@ a.start-over-btn:hover:before {
 
     .info-right {
         width: 100%;
+        top: 0;
     }
 
     .info-right > img {
@@ -1419,7 +1422,7 @@ a.start-over-btn:hover:before {
     }
 
     #welcome {
-        height: 130vh;
+        height: 115vh;
         position: relative;
         top: 175px;
     }
@@ -1441,6 +1444,10 @@ a.start-over-btn:hover:before {
 
     .photos {
         column-count: 2;
+    }
+
+    .form-wrapper {
+        margin-top: 5%;
     }
 
     /* form submission page */
@@ -1514,7 +1521,7 @@ a.start-over-btn:hover:before {
 
     #recent-news {
         top: 150px;
-        height: 1200px;
+        height: 1100px;
     }
     #cover-text {
         right: 50px;
@@ -1546,6 +1553,18 @@ a.start-over-btn:hover:before {
     }
 
     /* our menu */
+    #our-pizza-menu {
+        margin-top: 10%;
+    }
+
+    .menu-left {
+        height: 550px;
+    }
+
+    #our-bbq-menu {
+        margin-top: 20%;
+    }
+
     #our-bbq-menu, #our-pizza-menu {
         height: 1150px;
     }
@@ -1559,7 +1578,35 @@ a.start-over-btn:hover:before {
         height: 2900px;
     }  
 
+    #welcome {
+        margin-top: 0;
+        height: 215vh;
+    }
+
+    #reviews {
+        top: 100px;
+    }
+
+    /* footer */
+    #footer-menu-wrapper {
+        margin: 15px;
+    }
+
+    #footer-bg {
+        height: 200px;
+    }
+
+    #gallery-section {
+        height: 2950px;
+    }
+
+    .form-wrapper {
+        height: 475px;
+    }
     
+    #contact {
+        height: 950px;
+    }
 }
 
 /* for the smallest screen sizes from 450px wide and down */
@@ -1626,19 +1673,15 @@ a.start-over-btn:hover:before {
         padding-top: 0%;
     }
 
-    #footer-bg {
-        height: 500px;
-    }
-
     /* our menu */
     .menu-left {
-        padding-bottom: 15%;
+        padding-bottom: 0;
     }
 
     /* about us */
 
     #welcome {
-        height: 890px;
+        height: 1175px;
     }
 
     .info-left p {
@@ -1655,7 +1698,7 @@ a.start-over-btn:hover:before {
     }
 
     #gallery-section {
-        height: 2400px;
+        height: 2700px;
     }
 
     /* form submission page */
@@ -1674,7 +1717,11 @@ a.start-over-btn:hover:before {
 }
 
 @media screen and (max-width: 400px) {
-    /* header */
+    /* index */
+
+    #recent-news {
+        height: 900px;
+    }
 
     /* hamburger menu */
 
@@ -1712,13 +1759,30 @@ a.start-over-btn:hover:before {
             padding-right: 0;
         }
     
+        #our-bbq-menu, #our-pizza-menu {
+            height: 1100px;
+        }
+
+        .menu-left {
+            height: 575px;
+        }
+    
+        #gallery-section {
+            height: 2375px;
+        }
+
+        #contact {
+            margin-top: 0;
+            height: 875px;
+        }
+
 
 }
 
 @media screen and (max-width: 350px) {
 /* index page */
     #recent-news {
-        height: 900px;
+        height: 825px;
     }
 
     /* our menu */
@@ -1778,4 +1842,84 @@ a.start-over-btn:hover:before {
         padding-right: 0;
     }
 
+}
+
+@media screen and (max-width: 320px){
+/* index */
+    #hero-outer {
+        top: 115px;
+    }
+
+    #recent-news {
+        top: 125px;
+    }
+
+    .card-a h1 {
+        font-size: 89%;
+    }
+
+    .card-a p {
+        font-size: 85%;
+    }
+
+    #recent-news {
+        height: 730px;
+    }
+
+    #contact-us h1 {
+        font-size: 100%;
+    }
+
+    #contact-us h2 {
+        font-size: 75%;
+        padding-bottom: 0;
+    }
+
+    #footer-menu-wrapper {
+        font-size: 100%;
+    }
+
+    #img-wrapper-foot {
+        width: 35%;
+    }
+
+    #footer-bg {
+        height: 145px;
+    }
+
+    /* our menu */
+    #our-bbq-menu {
+        height: 1060px;
+    }
+
+    /* about us */
+    .info-left {
+        height: 585px;
+    }
+
+    #reviews p {
+        font-size: 75%;
+    }
+
+    #gallery-section {
+        height: 1900px;
+        top: 60px;
+    }
+
+    .info-left h1 {
+        font-size: 165%;
+    }
+
+    /* contact us */
+    .information-wrapper h3 {
+        font-size: 100%;
+    }
+
+    .information-wrapper h1 {
+        font-size: 150%;
+    }
+
+    #contact {
+        height: 800px;
+    }
 }
