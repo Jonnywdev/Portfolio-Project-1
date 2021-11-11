@@ -806,12 +806,9 @@ a.start-over-btn:hover:before {
 }
 
 /* responsiveness */
-/* for large screens sizes from 1200px and down */
+/* for large screens sizes from 1100px and down */
 @media screen and (max-width: 1100px) {
     /* footer */
-    #footer-bg img {
-        height: 60%;
-    }
 
     /* homepage */
     #cover-text {
@@ -820,7 +817,7 @@ a.start-over-btn:hover:before {
 
     /* our menu page */
     #our-pizza-menu {
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     #our-bbq-menu {
@@ -829,16 +826,21 @@ a.start-over-btn:hover:before {
 
     /* about us */
     #welcome {
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     #reviews {
         height: 550px;
     }
 
-    /* contact us */
     #gallery-section {
         height: 900px;
+    }
+
+    /* contact us */
+    #contact {
+        margin-top: 10%;
+        height: 700px;
     }
 
     
@@ -855,10 +857,19 @@ a.start-over-btn:hover:before {
         line-height: 100px;
     }
 
+    #contact-us {
+        margin: 10% 5%;
+    }
     /* homepage */
     #recent-news {
         height: 1300px;
     }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
     .card-left, .card-middle, .card-right {
         width: 100%;
         display: flex;
@@ -894,11 +905,14 @@ a.start-over-btn:hover:before {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        height: 600px;
+        height: 300px;
+    }
+
+    #img-wrapper-foot {
+        width: 30%;
     }
 
     #footer-bg img {
-        height: 100%;
         width: 100%;
         padding: 20px 0 0 0;
     }
@@ -914,6 +928,10 @@ a.start-over-btn:hover:before {
 
     #footer-menu h3{
         font-size: 65%;
+    }
+
+    #footer-wrapper {
+        margin-top: 3%;
     }
 
     /* about us */
