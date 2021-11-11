@@ -268,7 +268,14 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
 
 # Screenshots
 ## Project Screenshots
-
+![Screenshot 1, Hero Image](assets/images/Screenshot-1.png)
+![Screenshot 2, Recent News](assets/images/Screenshot-2.png)
+![Screenshot 3, Contact Us](assets/images/Screenshot-3.png)
+![Screenshot 4, Our Menu](assets/images/Screenshot-4.png)
+![Screenshot 5, About Us](assets/images/Screenshot-5.png)
+![Screenshot 6, Reviews](assets/images/Screenshot-6.png)
+![Screenshot 7, Gallery](assets/images/Screenshot-7.png)
+![Screenshot 8, Contact Form](assets/images/Screenshot-8.png)
 <br>
 [Back to Table of contents](#table-of-contents)
 
