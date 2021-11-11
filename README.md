@@ -1,7 +1,7 @@
-![Mozzs logo](assets/md-images/mozzs.png)
+![Mozzs logo](assets/images/mozzs.png)
 # Mozz's Pizza & BBQ
 
-![Mockup of website on computer, laptop and phone](assets/md-images/mockup.png)
+![Mockup of website on computer, laptop and phone](assets/images/mockup.png)
 
 ## Introduction
 This website presents Mozz's Pizza and BBQ, a catering company. Users will be people looking for a caterer for a private or public event and they will be able to find interesting content in a simple and easy way.
@@ -46,10 +46,10 @@ The website is designed to give the user a great experience and to be user-frien
 ### Wireframes
 I used Adobe XD to create my wireframes.
 #### Wireframe for big screens
-![wireframes](assets/md-images/wireframe-big-screens.png)
+![wireframes](assets/images/wireframe-big-screens.png)
 
 #### Wireframe for mobile screens
-![wireframes](assets/md-images/wireframe-small-screens.png)
+![wireframes](assets/images/wireframe-small-screens.png)
 
 ### Site styles
 
@@ -195,9 +195,9 @@ reports.
 ___
 ## Issues Found During Site Development
 - Horizontal scrolling bar on the bottom of the screen.
-![Screenshot of page having issue with horizontal scroll](assets/md-images/hor-scroll.png)
+![Screenshot of page having issue with horizontal scroll](assets/images/hor-scroll.png)
 The horizontal scrolling bar is only visable on the home page, so I new there was an element on that page that wasn't working properly. 
-![Screenshot of page having issue with horizontal scroll, using unicorn releavler](assets/md-images/hor-scroll-u.png)
+![Screenshot of page having issue with horizontal scroll, using unicorn releavler](assets/images/hor-scroll-u.png)
 I used the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser which was very helpful. It helped me understand that my issue was within my hero image. I found that my section with ID hero-outer had a width of 120% instead of 100%.
 
 - Issues with margin & padding as the screens get smaller.
@@ -207,7 +207,7 @@ I noticed that as the screen sizes got smaller the margin on the contact page wa
 I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website. I had to make a few changes that I needed to make to improve the scores. Screenshots and supporting text is presented below:
 
 Initial screenshot
-![Lighthouse initial screenshot](assets/md-images/lighthouse-1.png)
+![Lighthouse initial screenshot](assets/images/lighthouse-1.png)
 
 ## Code Validation
 At the end of the project I used 2 websites to validate the code.
@@ -267,6 +267,7 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
 [Back to Table of contents](#table-of-contents)
 
 # Screenshots
+## Project Screenshots
 
 <br>
 [Back to Table of contents](#table-of-contents)
