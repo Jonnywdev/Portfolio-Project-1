@@ -939,6 +939,9 @@ a.start-over-btn:hover:before {
         height: 350px;
     }
 
+    #welcome {
+        height: 450px;
+    }
     /* contact us */
     
     .form-wrapper {
@@ -956,7 +959,7 @@ a.start-over-btn:hover:before {
     }
 
     #contact {
-        height: 1000px;
+        height: 1100px;
     }
     
     #gallery-section {
@@ -1036,6 +1039,10 @@ a.start-over-btn:hover:before {
         height: 1400px; 
     }
 
+    #recent-news {
+        height: 1100px;
+    }
+
     /* about us */
     #welcome {
         height: 900px;
@@ -1060,7 +1067,12 @@ a.start-over-btn:hover:before {
     }
 
     #gallery-section {
-        height: 2200px;
+        height: 2100px;
+    }
+
+    /* contact us */
+    #contact {
+        height: 1000px;
     }
 
     /* form submission page */
@@ -1112,6 +1124,24 @@ a.start-over-btn:hover:before {
         .start-over-btn {
             font-size: 125%;
         }
+
+        /* hero image  */
+        #cover-text {
+            font-size: 80%;
+            height: 150px;
+            padding-top: 20px;
+            bottom: 30px;
+        }
+
+        .card-img {
+            height: auto;
+            width: 40%;
+        }
+
+        #recent-news {
+            height: 1150px;
+        }
+
 }
 
 /* for small screen sizes from 600px wide and down */
