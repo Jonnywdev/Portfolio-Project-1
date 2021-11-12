@@ -1,7 +1,7 @@
 ![Mozzs logo](assets/images/mozzs.png)
 # Mozz's Pizza & BBQ
 
-![Mockup of website on computer, laptop and phone](assets/images/mockup.png | width=100)
+![Mockup of website on computer, laptop and phone](assets/images/mockup.png)
 
 ## Introduction
 This website presents Mozz's Pizza and BBQ, a catering company. Users will be people looking for a caterer for a private or public event and they will be able to find interesting content in a simple and easy way.
