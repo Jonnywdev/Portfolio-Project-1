@@ -1,4 +1,4 @@
-![Mozzs logo](assets/images/mozzs.png)
+![Mozzs logo](assets/images/mozzs-logo-rm.png)
 # Mozz's Pizza & BBQ
 
 ![Mockup of website on computer, laptop and phone](assets/images/mockup.png)
