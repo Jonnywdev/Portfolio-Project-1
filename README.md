@@ -201,7 +201,7 @@ The horizontal scrolling bar is only visable on the home page, so I new there wa
 I used the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser which was very helpful. It helped me understand that my issue was within my hero image. I found that my section with ID hero-outer had a width of 120% instead of 100%.
 
 - Issues with margin & padding as the screens get smaller.
-![No gap between the header and the contact form](assets/md-images/no-gap.png)
+![No gap between the header and the contact form](assets/images/no-gap.png)
 I noticed that as the screen sizes got smaller the margin on the contact page wasnt working for some reason. I fixed the issue by giving the section with ID contact a position of relative and an element top of 150px.
 ## Performance Testing
 I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website. I had to make a few changes that I needed to make to improve the scores. Screenshots and supporting text is presented below:
@@ -269,21 +269,21 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
 # Screenshots
 ## Project Screenshots
 ![Screenshot 1, Hero Image](assets/images/Screenshot-1.png)
-<br>
+
 ![Screenshot 2, Recent News](assets/images/Screenshot-2.png)
-<br>
+
 ![Screenshot 3, Contact Us](assets/images/Screenshot-3.png)
-<br>
+
 ![Screenshot 4, Our Menu](assets/images/Screenshot-4.png)
-<br>
+
 ![Screenshot 5, About Us](assets/images/Screenshot-5.png)
-<br>
+
 ![Screenshot 6, Reviews](assets/images/Screenshot-6.png)
-<br>
+
 ![Screenshot 7, Gallery](assets/images/Screenshot-7.png)
-<br>
+
 ![Screenshot 8, Contact Form](assets/images/Screenshot-8.png)
-<br>
+
 [Back to Table of contents](#table-of-contents)
 
 <!-- # The future of the site
