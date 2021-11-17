@@ -432,7 +432,7 @@ textarea {
     text-align: right;
 }
 
-.information-wrapper h1 h3 {
+.information-wrapper h1 h3 h4 h5{
     color: #1F1E20;
 }
 
@@ -441,7 +441,7 @@ textarea {
     padding: 5% 0;
 }
 
-.information-wrapper h3 {
+.information-wrapper h3 h4 h5{
     font-size: 150%;
     font-weight: 300;
 }
@@ -468,6 +468,7 @@ textarea {
 
 .photos > img {
     width: 100%;
+    height: auto;
 }
 
 /* about us page */
@@ -671,6 +672,7 @@ hr {
 
 .menu-photos > img {
     width: 100%;
+    height: auto;
 }
 
 /* form submission page */
