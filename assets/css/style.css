@@ -1781,6 +1781,12 @@ a.start-over-btn:hover:before {
 
 }
 
+@media screen and (max-width: 360px) {
+    .info-right {
+        top: 10%;
+    }
+}
+
 @media screen and (max-width: 350px) {
 /* index page */
     #recent-news {
@@ -1910,6 +1916,10 @@ a.start-over-btn:hover:before {
 
     .info-left h1 {
         font-size: 165%;
+    }
+
+    .info-right {
+        top: 0;
     }
 
     /* contact us */
