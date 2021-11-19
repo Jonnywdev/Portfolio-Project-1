@@ -63,6 +63,7 @@ I used Adobe XD to create my wireframes.
 
 * I also used my own images, As this website is dedicated to one of my current jobs I have taken my own pictures when at events.
 <br>
+
 [Back to Table of contents](#table-of-contents)
 
 
@@ -129,6 +130,7 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 - On big and medium screens the elements are shown in a row with the contact form on the left. Then on small screens the elements are shown in a column with the contact form on top.
 
 <br>
+
 [Back to Table of contents](#table-of-contents)
 
 
@@ -152,6 +154,7 @@ The website consists of 8 pages. Four are accessible from a navigation menu. Thr
 ### Adobe Photoshop
 * As an image editor.
 <br>
+
 [Back to Table of contents](#table-of-contents)
 
 # Testing
@@ -219,6 +222,7 @@ At the end of the project I used 2 websites to validate the code.
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
  All code passed with no errors or warnings.
 <br>
+
 [Back to Table of contents](#table-of-contents)
 
 # Deployment
@@ -242,6 +246,7 @@ or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started
 this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Project-1)) into your github account.
 
 <br>
+
 [Back to Table of contents](#table-of-contents)
 
 # Credits
@@ -268,6 +273,7 @@ this repository ([Portfolio-Project-1](https://github.com/Jonnywdev/Portfolio-Pr
 * [hero-image.jpg](https://unsplash.com/photos/u6NiMLJftRs)
 
 <br>
+
 [Back to Table of contents](#table-of-contents)
 
 # Screenshots
