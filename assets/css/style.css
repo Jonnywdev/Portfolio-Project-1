@@ -160,6 +160,75 @@ a.left:hover:before {
 }
 
 
+/* first info section */
+
+
+.what-we-do{
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-do h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #1F1E20;
+}
+
+.card img {
+    position: relative;
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.f-learnmore {
+    text-decoration: none;
+    border: 3px solid #1F1E20;
+    border-radius: 25px;
+    background: none;
+    transition: all .5s;
+    color: #1F1E20;
+    margin: 2rem 0;
+}
+
+.f-learnmore:hover {
+    background: #1F1E20;
+    color: #D8CB97;
+}
+
+.f-learnmore h5 {
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
 
 /* contact us section*/
 #contact-us {
@@ -391,21 +460,15 @@ textarea {
 /* gallery section */
 
 #gallery-section {
-    height: 950px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    background-color: #1F1E20;
 }
 
-#gallery-section h2{
-    text-transform: uppercase;
-    font-size: 200%;
-}
 
 .photos {
     clear: both;
     line-height: 40px;
     column-count: 6;
+    padding: 3rem;
 }
 
 .photos > img {
@@ -776,9 +839,6 @@ a.start-over-btn:hover:before {
         height: 550px;
     }
 
-    #gallery-section {
-        height: 900px;
-    }
 
     /* contact us */
     #contact {
@@ -802,39 +862,7 @@ a.start-over-btn:hover:before {
         height: 1300px;
     }
 
-    .card-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-left, .card-middle, .card-right {
-        width: 100%;
-        display: flex;
-        margin-top: 5%;
-        height: 23%;
-    }
-
-    .card-middle {
-        position: relative;
-        top: 5%;
-    }
-
-    .card-img {
-        width: 30%;
-        height: 110%;
-        position: relative;
-        bottom: 0;
-        float: left;
-        display: block;
-    }
-
-    .news-container {
-        padding: 70px 70px;
-        position: relative;
-        bottom: 0;
-        float: right;
-        display: block;
-    }
+    
 
     /* footer */
     #footer-bg {
@@ -899,11 +927,7 @@ a.start-over-btn:hover:before {
         height: 1100px;
     }
     
-    #gallery-section {
-        display: flex;
-        flex-direction: column;
-        height: 2500px;
-    }
+
 
     .photos {
         column-count: 3;
@@ -1003,9 +1027,7 @@ a.start-over-btn:hover:before {
         height: 400px;
     }
 
-    #gallery-section {
-        height: 2100px;
-    }
+
 
     /* contact us */
     #contact {
@@ -1069,14 +1091,7 @@ a.start-over-btn:hover:before {
             bottom: 30px;
         }
 
-        .card-img {
-            height: auto;
-            width: 40%;
-        }
-
-        #recent-news {
-            height: 1150px;
-        }
+       
 
         /* footer */
 
@@ -1099,9 +1114,7 @@ a.start-over-btn:hover:before {
             font-size: 90%;
         }
 
-        #gallery-section {
-            height: 1750px;
-        }
+
 
         
 }
@@ -1271,36 +1284,9 @@ a.start-over-btn:hover:before {
         height: 1220px;
     }
 
-    .card-img {
-        width: 50%;
-    }
+   
 
-    .news-container {
-        padding: 50px 50px;
-    }
-
-    .card-middle {
-        top: 3%;
-    }
-
-    #news {
-        margin: 30px 0 0 0;
-        font-size: 2em;
-    }
-
-    .card-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #contact-us {
-        position: relative;
-        top: 100px;
-    }
-
-    #footer-bg {
-        margin-top: 100px;
-    }
+    
     /* our menu */
     #our-pizza-menu{
         height: auto;
@@ -1356,11 +1342,7 @@ a.start-over-btn:hover:before {
         position: relative;
         top: 175px;
     }
-    #gallery-section {
-        height: 3500px;
-        position: relative;
-        top: 125px;
-    }
+
 
     .photos {
         column-count: 2;
@@ -1490,9 +1472,7 @@ a.start-over-btn:hover:before {
         height: 530px;
     }
 
-    #gallery-section {
-        height: 2900px;
-    }  
+
 
     #welcome {
         margin-top: 0;
@@ -1512,9 +1492,7 @@ a.start-over-btn:hover:before {
         height: 200px;
     }
 
-    #gallery-section {
-        height: 2950px;
-    }
+
 
     .form-wrapper {
         height: 475px;
@@ -1542,53 +1520,7 @@ a.start-over-btn:hover:before {
         height: 1000px;
     }
 
-    .card-left, .card-middle, .card-right {
-        height: 20%;
-    }
-
-    .card-middle {
-        top: 2%;
-    }
-
-    .card-a h1 {
-        font-size: 110%;
-    }
-
-    .card-a p {
-        font-size: 100%;
-    }
-
-    /* contact us section (on most pages)*/
-    #contact-us {
-        height: 240px;
-    }
-
-    #contact-us h1 {
-        font-size: 125%;
-    }
-
-    #contact-us h2 {
-        padding-top: 5px;
-        font-size: 100%;
-        padding-bottom: 5px;
-    }
-
-    .contact-us-btn {
-        font-size: 125%;
-    }
-
-    /* footer */
-    #footer-bg img {
-        height: 60%;
-        padding-top: 10%;
-        padding-bottom: 2%;
-    }
-
-    #footer-menu {
-        font-size: 150%;
-        padding-top: 0%;
-    }
-
+   
     /* our menu */
     .menu-left {
         padding-bottom: 0;
@@ -1613,9 +1545,7 @@ a.start-over-btn:hover:before {
         height: 450px;
     }
 
-    #gallery-section {
-        height: 2700px;
-    }
+ 
 
     /* form submission page */
     .form-submited-text-wrapped h1 {
@@ -1682,10 +1612,7 @@ a.start-over-btn:hover:before {
         .menu-left {
             height: 575px;
         }
-    
-        #gallery-section {
-            height: 2375px;
-        }
+
 
         #contact {
             margin-top: 0;
@@ -1716,11 +1643,6 @@ a.start-over-btn:hover:before {
         height: 1125px;
     }
 
-    /* contact us */
-    #gallery-section {
-        height: 2200px;
-        top: 200px;
-    }
 
     /* about us */
     #welcome {
@@ -1776,39 +1698,7 @@ a.start-over-btn:hover:before {
         top: 125px;
     }
 
-    .card-a h1 {
-        font-size: 89%;
-    }
-
-    .card-a p {
-        font-size: 85%;
-    }
-
-    #recent-news {
-        height: 730px;
-    }
-
-    #contact-us h1 {
-        font-size: 100%;
-    }
-
-    #contact-us h2 {
-        font-size: 75%;
-        padding-bottom: 0;
-    }
-
-    #footer-menu-wrapper {
-        font-size: 100%;
-    }
-
-    #img-wrapper-foot {
-        width: 35%;
-    }
-
-    #footer-bg {
-        height: 145px;
-    }
-
+   
     /* our menu */
     #our-bbq-menu {
         height: 1060px;
@@ -1823,10 +1713,7 @@ a.start-over-btn:hover:before {
         font-size: 75%;
     }
 
-    #gallery-section {
-        height: 1900px;
-        top: 60px;
-    }
+
 
     .info-left h1 {
         font-size: 165%;
