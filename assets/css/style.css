@@ -163,35 +163,38 @@ a.left:hover:before {
 
 /* contact us section*/
 #contact-us {
-    height: 325px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
     background-color: #1F1E20;
-    text-align: center;
-    margin-bottom: 15%;
+    margin: 3rem;
+}
+
+.contact-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 
 #contact-us h1{
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-size: 200%;
     color: #D8CB97;
     text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-weight: 300;
 }
 
 #contact-us h2{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 150%;
     color: #D8CB97;
     text-transform: capitalize;
     letter-spacing: .5px;
+    padding-bottom: 1rem;
+    font-weight: 300;
 }
 
 
 a.contact-us-btn{
     position: relative;
+    font-weight: 500;
+    margin-top: 1rem;
 }
 
 a.contact-us-btn:before {
@@ -248,9 +251,6 @@ footer {
     margin-bottom: 7px;
 }
 
-
-
-
 #footer-menu-wrapper {
     display: flex;
     flex-direction: column;
@@ -267,7 +267,8 @@ footer {
 
 .copyright-mid h3 {
     text-decoration: none;
-    color: #D8CB97;  
+    color: #D8CB97; 
+    font-weight: 100; 
 }
 
 .copyright-mid li {
