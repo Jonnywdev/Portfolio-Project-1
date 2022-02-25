@@ -13,6 +13,10 @@ body {
 
 /* generic styles */
 
+.hide {
+    display: none;
+}
+
 h1, h2 {
     color: #1F1E20;
 }
@@ -58,7 +62,7 @@ a {
     font-size: 150%;
     letter-spacing: 2px;
     text-align: right;
-    margin-right: 40px;
+
 }
 
 #menu li {
@@ -99,7 +103,6 @@ a.left:hover:before {
 .hero-outer {
     overflow: hidden;
     position: relative;
-    height: 70vh;
 }
 
 #hero-image {
@@ -175,6 +178,7 @@ a.left:hover:before {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 3rem;
+    text-align: center;
 }
 
 .cards {
@@ -338,6 +342,7 @@ footer {
     text-decoration: none;
     color: #D8CB97; 
     font-weight: 100; 
+    font-size: 15px;
 }
 
 .copyright-mid li {
@@ -873,10 +878,6 @@ a.start-over-btn:hover:before {
         height: 300px;
     }
 
-    #img-wrapper-foot {
-        width: 30%;
-    }
-
     #footer-bg img {
         width: 100%;
         padding: 20px 0 0 0;
@@ -964,9 +965,7 @@ a.start-over-btn:hover:before {
 /* for small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     /* footer */
-    .hide {
-        display: none;
-    }
+    
 
     #footer-bg img {
         padding: 10% 0;
@@ -981,6 +980,62 @@ a.start-over-btn:hover:before {
         padding-top: 20%;
     }
 
+    /* header */
+    #menu {
+        font-size: 115%;
+    }
+
+    #cover-text h2 {
+        font-size: 1rem;
+    }
+
+    #cover-text a {
+        font-size: 100%;
+    }
+
+    #cover-text {
+        bottom: 50px;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .f-learnmore {
+        border: 2px solid #1F1E20;
+    }
+
+    .f-learnmore h5 {
+        font-size: 15px;
+    }
+
+    #contact-us h1 {
+        font-size: 20px;
+    }
+
+    #contact-us h2 {
+        font-size: 15px;
+    }
+
+    .contact-us-btn {
+        font-size: 25px;
+    }
+    .copyright-mid h3 {
+        font-size: 10px;
+    }
+
+    #footer-menu-wrapper {
+        font-size: 150%;
+    }
+
+
+    .footer-wrapper {
+        padding: 1rem 2rem 2rem 2rem;
+    }
     /* our menu page */
     #our-pizza-menu {
         height: 1400px;
@@ -1140,22 +1195,19 @@ a.start-over-btn:hover:before {
         display: block;
     }
 
-    #menuToggle
-    {
-      display: block;
-      position: relative;
-      top: 50px;
-      right: 50px;
-      float: right;
-      z-index: 1;
-      -webkit-user-select: none;
-      user-select: none;
+    #menuToggle {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        z-index: 1;
     }
     
     #menuToggle a
     {
       text-decoration: none;
       color: #D8CB97;
+      padding: 2rem 6rem;
     }
     
     #menuToggle input
@@ -1179,7 +1231,6 @@ a.start-over-btn:hover:before {
      */
     #menuToggle span
     {
-      display: block;
       display: block;
       width: 50px;
       height: 5px;
@@ -1251,15 +1302,17 @@ a.start-over-btn:hover:before {
         background: #1F1E20;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
-        right: 0;        
+        right: 0; 
+        text-align: center;       
     }
     
     #small-menu li
     {
-        padding: 10px;
+        padding: 2rem 1rem;
         font-size: 3em;
         position: relative;
-        top: 5em;
+        top: 3em;
+        border-bottom: 1px solid #D8CB97;
     }
     
     /*
@@ -1270,6 +1323,7 @@ a.start-over-btn:hover:before {
         top: 0rem;
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     /* index page */
@@ -1284,9 +1338,39 @@ a.start-over-btn:hover:before {
         height: 1220px;
     }
 
-   
+    .cards {
+        flex-direction: column;
+    }
 
+    .card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
     
+    .card h3 {
+        font-size: 2.5rem;
+    }
+
+    .card p {
+        font-size: 20px;
+    }
+
+    .f-learnmore h5 {
+        font-size: 20px;
+    }
+
+    #contact-us h1 {
+        font-size: 25px;
+    }
+
+    #contact-us h2 {
+        font-size: 20px;
+        padding-bottom: 2rem;
+    }
+
+    .contact-us-btn {
+        font-size: 30px;
+    }
     /* our menu */
     #our-pizza-menu{
         height: auto;
@@ -1406,9 +1490,6 @@ a.start-over-btn:hover:before {
 
     
     /* hamburger menu */
-    #menuToggle {
-        top: 33px;
-    }
 
     #small-menu li {
         padding: 15px;
@@ -1416,12 +1497,29 @@ a.start-over-btn:hover:before {
         top: 5em;
     }
 
+    #menuToggle {
+        top: 50px;
+    }
+
     /* index page */
+    .what-we-do h3 {
+        font-size: 2rem;
+    }
 
+    .card h3 {
+        font-size: 2rem;
+    }
 
-    #recent-news {
-        top: 150px;
-        height: 1100px;
+    .card p {
+        font-size: 15px;
+    }
+
+    .f-learnmore h5 {
+        font-size: 15px;
+    }
+
+    .cards {
+        margin-top: 3rem;
     }
 
 
@@ -1433,9 +1531,6 @@ a.start-over-btn:hover:before {
         padding-bottom: 5%;
     }
     /* contact us section (on most pages)*/
-    #contact-us {
-        height: 280px;
-    }
 
     #contact-us h1 {
         font-size: 150%;
@@ -1484,9 +1579,6 @@ a.start-over-btn:hover:before {
     }
 
     /* footer */
-    #footer-menu-wrapper {
-        margin: 15px;
-    }
 
     #footer-bg {
         height: 200px;
@@ -1569,10 +1661,36 @@ a.start-over-btn:hover:before {
         height: 900px;
     }
 
+    #footer-menu-wrapper {
+        font-size: 100%;
+    }
+
+    .footer-wrapper {
+        padding: 1rem 1rem 2rem 1rem;
+        height: 5rem;
+    }
+
+    #contact-us h1 {
+        font-size: 17px;
+    }
+
+    #contact-us h2 {
+        font-size: 13px;
+    }
+  
+    .footer-wrapper img {
+        max-width: 100%;
+        max-height: 65px;
+    }
+
     /* hamburger menu */
 
-    #menuToggle {
-        top: 20px;
+    .contact-us-wrapper {
+        text-align: center;
+    }
+
+    #small-menu li {
+        font-size: 2em;
     }
 
     #menuToggle span {
@@ -1698,7 +1816,88 @@ a.start-over-btn:hover:before {
         top: 125px;
     }
 
+    .header-is-wrapped {
+        padding: 0px 1rem;
+    }
+
+    .head-bg img {
+        max-width: 75px;
+    }
+
+    #menuToggle {
+        right: 15px;
+    }
+
+    #menuToggle a {
+        padding: 2rem;
+    }
+
+    #small-menu li {
+        font-size: 30px;
+    }
+
+    .what-we-do {
+        padding: 3rem 2rem;
+    }
+
+    .card h3 {
+        font-size: 25px;
+    }
+
+    .f-learnmore h5 {
+        font-size: 12px;
+    }
+
+    .photos {
+        column-count: 1;
+        padding: 2rem;
+    }
    
+    .contact-us-wrapper {
+        padding: 1rem;
+    }
+
+    .contact-us-btn {
+        font-size: 120%;
+        margin-top: 0.5rem;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .copyright-mid {
+        display: none;
+    }
+
+    .copyright-mide {
+        display: flex;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-wrapper img {
+        margin-right: 20px;
+    }
+
+    .footer-wrapper {
+        height: 9rem;
+    }
+
+    .copyright-mide h3 {
+        text-decoration: none;
+        color: #D8CB97;
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+    .copyright-mide li {
+        list-style: none;
+    }
     /* our menu */
     #our-bbq-menu {
         height: 1060px;
@@ -1713,6 +1912,9 @@ a.start-over-btn:hover:before {
         font-size: 75%;
     }
 
+    #footer-menu-wrapper {
+        text-align: center;
+    }
 
 
     .info-left h1 {

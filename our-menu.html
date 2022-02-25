@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,176 +9,118 @@
     <meta name="keywords" content="pizza, bbq, events, food, parties, street food, stonebaked pizza, fresh food">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://allfont.net/allfont.css?fonts=caviar-dreams" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" media="screen" type="text/css">
-    <title>Our menu</title>
+    <title>Home Page</title>
 </head>
 <body>
     <!-- header -->
-    <header id="head-bg">
-        <a href="index.html"><img src="assets/images/logo-clear.webp" alt="Logo for Mozz's Pizza and BBQ"></a>
-        <!-- Navigation Menu -->
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="index.html" class="left">Home</a>
-                </li>
-                <li>
-                    <a href="our-menu.html" class="left">Our Menu</a>
-                </li>
-                <li>
-                    <a href="about-us.html" class="left">About Us</a>
-                </li>
-                <li>
-                    <a href="contact-us.html" class="left">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- Navigation for mobile devices -->
-        <nav id="smaller-nav">
-            <div id="menuToggle">
-                <!-- Invisible checkbox for when 3 lines are clicked -->
-                <input type="checkbox" />
-                <!-- Span = 1 line of the hamburger menu -->
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="small-menu">
+    <header class="head-bg">
+        <div class="header-is-wrapped">
+            <a href="index.html"><img src="assets/images/logo-clear.png" alt="Logo for Mozz's Pizza and BBQ"></a>
+            <!-- Navigation Menu -->
+            <nav id="menu">
+                <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" class="left">Home</a>
                     </li>
                     <li>
-                        <a href="our-menu.html">Our Menu</a>
+                        <a href="our-menu.html" class="left">Our Menu</a>
                     </li>
                     <li>
-                        <a href="about-us.html">About Us</a>
+                        <a href="about-us.html" class="left">About Us</a>
                     </li>
                     <li>
-                        <a href="contact-us.html">Contact Us</a>
+                        <a href="contact-us.html" class="left">Contact Us</a>
                     </li>
                 </ul>
-            </div>
-          </nav>
+            </nav>
+            <!-- Navigation for mobile devices -->
+            <nav id="smaller-nav">
+                <div id="menuToggle">
+                    <!-- Invisible checkbox for when 3 lines are clicked -->
+                    <input type="checkbox" />
+                    <!-- Span = 1 line of the hamburger menu -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="small-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="our-menu.html">Our Menu</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-    <!-- pizza menu -->
-    <!-- any item with class padding-left will be moved to the right with padding left -->
-    <section id="our-pizza-menu">
-        <div class="menu-left">
-            <h1>Our Pizza Menu</h1>
-            <hr>
-            <h3>All of our pizza's are prepared fresh to order in our kitchen in pennington and cooked in our mobile
-                pizza trailer!</h3>
-            <table>
-                <tr>
-                    <td class="menu-table">Margherita</td>
-                    <td class="menu-table padding-left">£7.50</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Peperoni</td>
-                    <td class="menu-table padding-left">£8.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Meat feast</td>
-                    <td class="menu-table padding-left">£8.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Chicken</td>
-                    <td class="menu-table padding-left">£8.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Hawaiian</td>
-                    <td class="menu-table padding-left">£8.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Veggie</td>
-                    <td class="menu-table padding-left">£7.00</td>
-                </tr>
-            </table>
-            <br>
-            <h3>Order on the night at any event or save money and hire us for your own event.</h3>
-        </div>
-        <!-- images on the right of pizza menu -->
-        <div class="menu-right">
-            <div class="menu-photos">
-                <img src="assets/images/gallery-1.webp" alt="Chicken pizza on wooden chopping board">
-                <img src="assets/images/gallery-2.webp" alt="Slice of pepperoni pizza">
-                <img src="assets/images/gallery-4.webp" alt="Freshly cooked ham and olive pizza">
-                <img src="assets/images/gallery-6.webp" alt="Pepperoni pizza on log chopping board">
-            </div>
-        </div>
-    </section>
-    <!-- bbq menu -->
-    <!-- any item with class padding-left will be moved to the right with padding left -->
-    <section id="our-bbq-menu">
-        <div class="menu-left">
-            <h1>Our BBQ Menu</h1>
-            <hr>
-            <h3>All of the food for our BBQ's are prepared fresh to order in our kitchen in pennington and cooked in our
-                mobile BBQ trailer!</h3>
-            <table>
 
-                <tr>
-                    <td class="menu-table">Burger</td>
-                    <td class="menu-table padding-left">£3.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Hotdog</td>
-                    <td class="menu-table padding-left">£3.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Chicken Kebab</td>
-                    <td class="menu-table padding-left">£4.50</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Lamb Kofta</td>
-                    <td class="menu-table padding-left">£3.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Veggie Hotdog</td>
-                    <td class="menu-table padding-left">£3.00</td>
-                </tr>
-                <tr>
-                    <td class="menu-table">Veggie Kebab</td>
-                    <td class="menu-table padding-left">£4.50</td>
-                </tr>
-            </table>
-            <br>
-            <h3>Order on the night at any event or save money and hire us for your own event.</h3>
-        </div>
-        <!-- images on te right of bbq menu -->
-        <div class="menu-right">
-            <div class="menu-photos">
-                <img src="assets/images/gallery-13.webp" alt="Hot dog chips and gravy">
-                <img src="assets/images/gallery-14.webp" alt="Hot dogs cooking on the bbq">
-                <img src="assets/images/gallery-15.webp" alt="3 burgers freshly prepared">
-                <img src="assets/images/gallery-18.webp" alt="Big burger with onion rings, chips and coleslaw">
+    <!-- section about the pizza? -->
+    <section class="first-info">
+        <div class="what-we-do">
+            <h3>View our menu's</h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/images/pizza-f.png" alt="">
+                    <h3>Pizza Menu</h3>
+                    <a href="#" class="f-learnmore"><h5>view menu</h5></a>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/bbq-f.png" alt="">
+                    <h3>BBQ menu</h3>
+                    <a href="#" class="f-learnmore"><h5>view menu</h5></a>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/pie-f.png" alt="">
+                    <h3>Pie menu</h3>
+                    <a href="#" class="f-learnmore"><h5>view menu</h5></a>
+                </div>
             </div>
         </div>
+
     </section>
+
+ 
     <!-- Contact us section, easy way to get to the contact form -->
     <section id="contact-us">
-        <h1>Hire us out for an event!</h1>
-        <h2>Contact us for more information</h2>
-        <br>
-        <br>
-        <a href="contact-us.html" class="contact-us-btn">Contact Us</a>
+        <div class="contact-us-wrapper">
+            <h1>Hire us out for an event!</h1>
+            <h2>Contact us for more information</h2>
+            <a href="contact-us.html" class="contact-us-btn">Contact Us</a>
+        </div>
     </section>
     <!-- footer -->
-    <footer id="footer-bg">
-        <div id="footer-wrapper">
+    <footer>
+        <div class="footer-wrapper">
             <div id="img-wrapper-foot">
-                <a href="index.html"><img src="assets/images/logo-clear.webp" alt="Logo for Mozz's Pizza and BBQ"></a>
+                <a href="index.html"><img src="assets/images/logo-clear.png" alt="Logo for Mozz's Pizza and BBQ"></a>
+            </div>
+            <!-- Copyright section --> 
+            <div class="copyright-mid">
+                <ul>              
+                   <li>
+                       <h3>&copy; Mozz's | Designed by Jonny Whittle</h3>
+                   </li>                
+               </ul>
             </div>
             <!-- Address and contact info -->
             <div id="footer-menu-wrapper">
                 <ul>
                     <li>
-                        <h3>55 Hand Lane, WN7 3NA, Leigh</h3>
+                        <h3>55 Hand Lane,<br> WN7 3NA, Leigh</h3>
                     </li>
                     <li>
                         <h3>07515931666</h3>
@@ -186,22 +129,30 @@
                 <ul class="social-links">
                     <!-- Social Media links -->
                     <li>
+                        <a href="https://twitter.com/Mozzs_Pizza" target="_blank" rel="noopener" aria-label="Visit us on Twitter (using a new tab)">
+                            <i class="fa-brands fa-twitter icon" aria-hidden="true"></i>
+                        </a>
+                    </li> 
+                    <li>
                         <a href="https://www.facebook.com/mozzs.pizza" target="_blank" rel="noopener" aria-label="Visit us on Facebook (using a new tab)">
                             <i class="fab fa-facebook-f icon" aria-hidden="true"></i>
                         </a>
                     </li>     
                     <li>
-                        <a href="https://www.instagram.com/mozzs.pizza/" target="_blank" rel="noopener" aria-label="Visit us on Facebook (using a new tab)">
+                        <a href="https://www.instagram.com/mozzs.pizza/" target="_blank" rel="noopener" aria-label="Visit us on instagram (using a new tab)">
                             <i class="fab fa-instagram icon" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
-                <ul>
-                     <!-- Copyright section -->               
-                    <li>
-                        <h3>&copy; Mozz's | Designed by Jonny Whittle</h3>
-                    </li>                
-                </ul>
+                
+            </div>
+            <!-- Copyright section --> 
+            <div class="copyright-mide hide">
+                <ul>              
+                   <li>
+                       <h3>&copy; Mozz's | Designed by Jonny Whittle</h3>
+                   </li>                
+               </ul>
             </div>
         </div>
     </footer>
