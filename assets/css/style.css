@@ -799,6 +799,13 @@ a.start-over-btn:hover:before {
     margin-bottom: 0.5rem;
 }
 
+.main-menu h6 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
 /* responsiveness */
 /* for large screens sizes from 1100px and down */
 @media screen and (max-width: 1100px) {
