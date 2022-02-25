@@ -376,71 +376,72 @@ footer {
 }
 
 /* contact us page */
-#contact {
-    height: 800px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-    margin-top: 5%;
+
+.form-contact-wrapped {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3rem;
+} 
+
+#contact-p {
+    padding-top: 1.5rem;
 }
 
 .form-wrapper {
-    background-color: #1F1E20;
     width: 50%;
     float: left;
-    height: 450px;
-    margin: 15% 0;
-}
-
-.form-wrapper label {
+    background: #1F1E20;
     color: #D8CB97;
-}
-
-form {
-    padding: 5%;
+    padding: 20px;
 }
 
 .form-wrapper h1 {
-    color: #D8CB97;
+    font-weight: 200;
     text-transform: uppercase;
-    padding-bottom: 5%;
+    color: #D8CB97;
+    padding-bottom: 1rem;
 }
 
 .form-wrapper input {
+    background: none;
+    border-bottom: 1px solid #D8CB97;
     width: 100%;
 }
 
-input {
-    border: none;
-    border-bottom: 2px solid #D8CB97;
+.send-btn  {
     color: #D8CB97;
-    background-color: transparent;
-}
-
-input[type=submit] {
-    text-transform: uppercase;
-    padding: 2%;
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 200;
     cursor: pointer;
 }
 
-textarea {
+.form-textarea {
     resize: none;
     width: 96%;
-    background-color: #D8CB97;
-    font-family: 'caviar-dreams', sans-serif;
-    padding: 2%;
+    background-color: rgb(216, 203, 151);
     margin-top: 2%;
+    padding: 2%;
 }
 
-.form-wrapper p{
-    font-size: 75%;
-    color: #D8CB97;
-    padding-bottom: 2%;
+.other-contact {
+    width: 50%;
+    text-align: right;
+}
+
+.other-contact h1 {
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+.other-contact h2 {
+    font-weight: 300;
 }
 
 /* information section */
 
-.information-wrapper {
+/* .information-wrapper {
     width: 35%;
     float: right;
     height: 450px;
@@ -460,7 +461,7 @@ textarea {
 .information-wrapper h3 h4 h5{
     font-size: 150%;
     font-weight: 300;
-}
+} */
 
 /* gallery section */
 
@@ -482,16 +483,13 @@ textarea {
 }
 
 /* about us page */
-
-#welcome {
-    height: 550px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 15%;
-    width: 90%;
-    color: #1F1E20;
-    position: relative;
-    top: 30px;
+.welcome-info {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
 }
 
 hr {
@@ -501,9 +499,7 @@ hr {
 }
 
 .info-left {
-    float: left;
     width: 65%;
-    height: 400px;
 }
 
 .info-left h1 {
@@ -512,95 +508,17 @@ hr {
 }
 
 .info-left p {
-    text-align: justify;
-    padding-top: 5%;
+    text-align: left;
+    font-size: 20px;
 }
 
 .info-right {
-    float: right;
-    width: 35%;
-    height: 400px;
+    width: 30%;
     text-align: right;
 }
 
-.info-right > img {
-    width: 80%;
-    height: inherit;
-}
-
-/* reviews */
-#reviews {
-    height: 600px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;   
-}
-
-#reviews h1 {
-    text-transform: uppercase;
-    color: #1F1E20;
-    font-size: 200%;
-}
-
-#reviews h2 {
-    padding: 2% 5% 0 5% ;
-    text-align: center;
-}
-
-#reviews p {
-    padding: 0 5%;
-    text-align: left;
-}
-
-.review-card-left {
-    background-color: #fff;
-    width: 30%;
-    height: 300px;
-    overflow: hidden;
-    float: left;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: .3s;
-    border-radius: 25px;
-    color: #1F1E20;
-    
-}
-
-.review-card-left >img {
+.info-img-wrapper img{
     width: 100%;
-    height: 100%;
-}
-
-.review-card-right {
-    background-color: #fff;
-    width: 30%;
-    height: 300px;
-    overflow: hidden;
-    float: right;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: .3s;
-    border-radius: 25px;
-}
-
-.review-card-middle {
-    background-color: #fff;
-    width: 30%;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: .3s;
-    border-radius: 25px;
-}
-
-.review-card-left:hover, .review-card-middle:hover, .review-card-right:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.541);
-}
-
-.stars {
-    text-align: center;
-    padding-top: 5%;
-    font-size: 20px;
-    color: #D8CB97;
 }
 
 /* our menu page */
@@ -836,13 +754,9 @@ a.start-over-btn:hover:before {
     }
 
     /* about us */
-    #welcome {
-        margin-top: 20%;
-    }
 
-    #reviews {
-        height: 550px;
-    }
+
+    
 
 
     /* contact us */
@@ -905,24 +819,15 @@ a.start-over-btn:hover:before {
         height: 350px;
     }
 
-    #welcome {
-        height: 450px;
-    }
     /* contact us */
-    
-    .form-wrapper {
-        width: 100%;
-        float: left;
-        height: 550px;
-        margin-bottom: 5%;
-    }
 
-    .information-wrapper {
+
+    /* .information-wrapper {
         margin: 5% 0;
         text-align: left;
         float: left;
         height: 300px;
-    }
+    } */
 
     #contact {
         height: 1100px;
@@ -965,8 +870,6 @@ a.start-over-btn:hover:before {
 /* for small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     /* footer */
-    
-
     #footer-bg img {
         padding: 10% 0;
     }
@@ -1059,31 +962,6 @@ a.start-over-btn:hover:before {
         height: 1100px;
     }
 
-    /* about us */
-    #welcome {
-        height: 900px;
-    }
-
-    .info-left {
-        width: 100%;
-        height: 380px;
-    }
-    .info-right > img {
-        height: auto;
-    }
-
-    .info-right {
-        float: left;
-        width: 60%;
-        text-align: left;
-    }
-
-    .review-card-left, .review-card-middle, .review-card-right {
-        height: 400px;
-    }
-
-
-
     /* contact us */
     #contact {
         height: 1000px;
@@ -1111,6 +989,27 @@ a.start-over-btn:hover:before {
 
     .start-over-btn {
         font-size: 175%;
+    }
+
+    /* contact us */
+    .form-contact-wrapped {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-wrapper {
+        width: 100%;
+    }
+
+    .other-contact {
+        width: 100%;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    
+    #contact-p {
+        text-align: center;
     }
 }
 
@@ -1158,10 +1057,6 @@ a.start-over-btn:hover:before {
             margin: 3%;
         }
 
-        .info-right {
-            position: relative;
-            top: 5%;
-        }
 
         #reviews p {
             padding: 05%;
@@ -1386,40 +1281,8 @@ a.start-over-btn:hover:before {
     
 
     /* about us */
-    .info-left {
-        height: 450px;
-    }
-
-    #reviews {
-        height: 1000px;
-        position: relative;
-        top: 75px;
-    }
-
-    .review-card-left, .review-card-middle, .review-card-right {
-        width: 100%;
-        height: 25%;
-        margin-bottom: 5%;
-    }
-
-    .info-right {
-        width: 100%;
-        top: 0;
-    }
-
-    .info-right > img {
-        width: 100%;
-    }
-
-    #welcome {
-        height: 115vh;
-        position: relative;
-        top: 175px;
-    }
-
-    #reviews p {
-        text-align: center;
-    }
+  
+   
 
     /* contact us */
     #contact {
@@ -1432,9 +1295,6 @@ a.start-over-btn:hover:before {
         column-count: 2;
     }
 
-    .form-wrapper {
-        margin-top: 5%;
-    }
 
     /* form submission page */
     .form-submited-text-wrapped {
@@ -1563,21 +1423,23 @@ a.start-over-btn:hover:before {
     }
 
     /* about us */
+    .welcome-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-right {
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+
     .info-left {
-        height: 530px;
+        width: 100%;
     }
 
-
-
-    #welcome {
-        margin-top: 0;
-        height: 215vh;
+    .what-we-do {
+        padding: 3rem 2rem;
     }
-
-    #reviews {
-        top: 100px;
-    }
-
     /* footer */
 
     #footer-bg {
@@ -1586,9 +1448,7 @@ a.start-over-btn:hover:before {
 
 
 
-    .form-wrapper {
-        height: 475px;
-    }
+
     
     #contact {
         height: 950px;
@@ -1620,22 +1480,11 @@ a.start-over-btn:hover:before {
 
     /* about us */
 
-    #welcome {
-        height: 1175px;
-    }
-
-    .info-left p {
-        text-align: left;
-    }
-
     /* contact us */
     #contact {
         height: 800px;
     }
 
-    .form-wrapper {
-        height: 450px;
-    }
 
  
 
@@ -1699,13 +1548,8 @@ a.start-over-btn:hover:before {
     }
 
     /* about us  */
-    #welcome {
-        height: 1175px;
-    }
 
-    .info-right {
-        padding-top: 50px;
-    }
+
 
         /* 404 page */
 
@@ -1741,9 +1585,7 @@ a.start-over-btn:hover:before {
 }
 
 @media screen and (max-width: 360px) {
-    .info-right {
-        top: 10%;
-    }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -1763,17 +1605,6 @@ a.start-over-btn:hover:before {
 
 
     /* about us */
-    #welcome {
-        height: 1200px;
-    }
-
-    .info-right {
-        padding-top: 150px;
-    }
-
-    #reviews {
-        height: 900px;
-    }
 
     /* form submission page */
     .form-submited-text-wrapped h1 {
@@ -1904,26 +1735,17 @@ a.start-over-btn:hover:before {
     }
 
     /* about us */
-    .info-left {
-        height: 585px;
-    }
 
-    #reviews p {
-        font-size: 75%;
-    }
 
     #footer-menu-wrapper {
         text-align: center;
     }
 
-
-    .info-left h1 {
-        font-size: 165%;
-    }
-
     .info-right {
-        top: 0;
+        width: 90%;
+        padding-bottom: 2rem;
     }
+
 
     /* contact us */
     .information-wrapper h3 {
