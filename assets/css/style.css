@@ -103,6 +103,7 @@ a.left:hover:before {
 .hero-outer {
     overflow: hidden;
     position: relative;
+    height: 80vh;
 }
 
 #hero-image {
@@ -134,7 +135,7 @@ a.left:hover:before {
     text-transform: none;
     padding: 1rem;
     background-color: rgba(31, 30, 32, 0.64);
-    bottom: 30px;
+    bottom: 15vh;
     right: 0;
     position: absolute;
     display: flex;
@@ -191,13 +192,17 @@ a.left:hover:before {
 }
 
 .card {
-    width: 30%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-bottom: 1px solid #1F1E20;
+}
+
+.three-cards {
+    width: 30%;
 }
 
 .card img {
@@ -736,6 +741,64 @@ a.start-over-btn:hover:before {
     color: #1F1E20 !important;
 }
 
+/* menu pages */
+
+.pizza-menu {
+    padding: 4rem 3rem;
+}
+
+.menu-top-head {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.menu-top-head h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.menu-top-head p {
+    margin: 1rem 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.main-menu h2{
+    text-transform: uppercase;
+    margin: 1rem 0;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid #1F1E20;
+}
+
+.main-menu h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.main-menu p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.main-menu h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.main-menu h5 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
 /* responsiveness */
 /* for large screens sizes from 1100px and down */
 @media screen and (max-width: 1100px) {
@@ -896,9 +959,6 @@ a.start-over-btn:hover:before {
         font-size: 100%;
     }
 
-    #cover-text {
-        bottom: 50px;
-    }
 
     .card h3 {
         font-size: 1.5rem;
@@ -1042,7 +1102,6 @@ a.start-over-btn:hover:before {
             font-size: 80%;
             height: 150px;
             padding-top: 20px;
-            bottom: 30px;
         }
 
        
